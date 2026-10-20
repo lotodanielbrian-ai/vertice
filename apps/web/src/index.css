@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes argb-flow {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+.argb-text {
+  background: linear-gradient(90deg, #ff007f, #00f0ff, #7928ca, #ff007f);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: argb-flow 6s linear infinite;
+}
+
+.glass-panel {
+  background: rgba(13, 18, 30, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: rgba(10, 14, 23, 0.7); }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #334155; border-radius: 999px; }
+
+:focus-visible {
+  outline: 2px solid #22d3ee;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .argb-text { animation: none; }
+}

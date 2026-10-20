@@ -1,0 +1,12 @@
+{
+  "name": "@pc/image-fetcher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node src/fetch.mjs"
+  },
+  "dependencies": {
+    "postgres": "^3.4.7"
+  }
+}

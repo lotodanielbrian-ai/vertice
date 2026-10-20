@@ -1,0 +1,28 @@
+name: pc-builder
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: pcbuilder
+      POSTGRES_PASSWORD: pcbuilder
+      POSTGRES_DB: pcbuilder
+    ports:
+      - "5432:5432"
+    volumes:
+      - pcbuilder_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pcbuilder -d pcbuilder"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  adminer:
+    image: adminer:4
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+volumes:
+  pcbuilder_pg:

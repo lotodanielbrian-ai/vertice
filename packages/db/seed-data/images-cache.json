@@ -1,0 +1,2102 @@
+{
+  "mb_440bx": {
+    "status": "hit",
+    "file": "mb_440bx.jpg",
+    "entry": {
+      "url": "/images/components/mb_440bx.jpg",
+      "thumbUrl": "/images/components/mb_440bx.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Asus_P3B-F_REV._1.04_with_2_ISA.jpg",
+      "author": "user:Gona.eu",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 425,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gf2mx": {
+    "status": "hit",
+    "file": "g_nv_gf2mx.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gf2mx.jpg",
+      "thumbUrl": "/images/components/g_nv_gf2mx.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:GeForce_2_MX_400.JPG",
+      "author": "No machine-readable author provided. Rosco~commonswiki assumed (based on copyright claims).",
+      "license": "CC BY-SA 2.5",
+      "width": 640,
+      "height": 487,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gf2gts": {
+    "status": "miss"
+  },
+  "r_sdr_512": {
+    "status": "miss"
+  },
+  "g_ati_ddr": {
+    "status": "miss"
+  },
+  "g_nv_gf2ultra": {
+    "status": "hit",
+    "file": "g_nv_gf2ultra.png",
+    "entry": {
+      "url": "/images/components/g_nv_gf2ultra.png",
+      "thumbUrl": "/images/components/g_nv_gf2ultra.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Canopus_GeForce2_Ultra.png",
+      "author": "Hyins",
+      "license": "Public domain",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_nv_256ddr": {
+    "status": "hit",
+    "file": "g_nv_256ddr.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_256ddr.jpg",
+      "thumbUrl": "/images/components/g_nv_256ddr.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:KL_NVIDIA_Geforce_256.jpg",
+      "author": "Konstantin Lanzet",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 640,
+      "kind": "photo"
+    }
+  },
+  "g_ati_8500": {
+    "status": "hit",
+    "file": "g_ati_8500.jpg",
+    "entry": {
+      "url": "/images/components/g_ati_8500.jpg",
+      "thumbUrl": "/images/components/g_ati_8500.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ATI_Radeon_8500.jpg",
+      "author": "Raptor3388",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "cs_retro": {
+    "status": "miss"
+  },
+  "g_nv_gf3ti500": {
+    "status": "hit",
+    "file": "g_nv_gf3ti500.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gf3ti500.jpg",
+      "thumbUrl": "/images/components/g_nv_gf3ti500.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Geforce3_Ti500.jpg",
+      "author": "Richard Berg from Jersey City, NJ, USA",
+      "license": "CC BY 2.0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gf3ti200": {
+    "status": "hit",
+    "file": "g_nv_gf3ti200.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gf3ti200.jpg",
+      "thumbUrl": "/images/components/g_nv_gf3ti200.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ASUS_V8200T2_GeForce3_Ti200.jpg",
+      "author": "Tors",
+      "license": "Public domain",
+      "width": 640,
+      "height": 463,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gf4ti4200": {
+    "status": "miss"
+  },
+  "g_nv_gf4mx440": {
+    "status": "hit",
+    "file": "g_nv_gf4mx440.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gf4mx440.jpg",
+      "thumbUrl": "/images/components/g_nv_gf4mx440.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mx440-se.JPG",
+      "author": "deivis@akmene.net",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_9700pro": {
+    "status": "hit",
+    "file": "g_9700pro.png",
+    "entry": {
+      "url": "/images/components/g_9700pro.png",
+      "thumbUrl": "/images/components/g_9700pro.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ATI-Radeon-9700-Pro.png",
+      "author": null,
+      "license": "Public domain",
+      "width": 640,
+      "height": 431,
+      "kind": "photo"
+    }
+  },
+  "st_pata": {
+    "status": "miss"
+  },
+  "mb_nforce2": {
+    "status": "miss"
+  },
+  "g_nv_gf4ti4600": {
+    "status": "hit",
+    "file": "g_nv_gf4ti4600.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gf4ti4600.jpg",
+      "thumbUrl": "/images/components/g_nv_gf4ti4600.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nvidia_geforce_ti_4600_gpu_2007-11-27_23-03.jpg",
+      "author": "Henry Mühlpfordt",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 402,
+      "kind": "photo"
+    }
+  },
+  "g_ati_9200": {
+    "status": "miss"
+  },
+  "g_nv_fx5950u": {
+    "status": "hit",
+    "file": "g_nv_fx5950u.png",
+    "entry": {
+      "url": "/images/components/g_nv_fx5950u.png",
+      "thumbUrl": "/images/components/g_nv_fx5950u.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ASUS_GeForce_FX_5950_Ultra.png",
+      "author": "Hyins",
+      "license": "Public domain",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_ati_9600xt": {
+    "status": "hit",
+    "file": "g_ati_9600xt.jpg",
+    "entry": {
+      "url": "/images/components/g_ati_9600xt.jpg",
+      "thumbUrl": "/images/components/g_ati_9600xt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ATI_Radeon_9600_Pro_8124.jpg",
+      "author": "Ashley Pomeroy",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 427,
+      "kind": "photo"
+    }
+  },
+  "g_ati_9800xt": {
+    "status": "miss"
+  },
+  "g_nv_fx5800u": {
+    "status": "hit",
+    "file": "g_nv_fx5800u.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_fx5800u.jpg",
+      "thumbUrl": "/images/components/g_nv_fx5800u.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA_GeForce_FX_5800_Ultra_ES.jpg",
+      "author": "Hyins",
+      "license": "Public domain",
+      "width": 640,
+      "height": 380,
+      "kind": "photo"
+    }
+  },
+  "g_nv_fx5700u": {
+    "status": "miss"
+  },
+  "g_nv_fx5200": {
+    "status": "hit",
+    "file": "g_nv_fx5200.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_fx5200.jpg",
+      "thumbUrl": "/images/components/g_nv_fx5200.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Geforce_fx5200gpu.jpg",
+      "author": "Terebitou",
+      "license": "Public domain",
+      "width": 640,
+      "height": 522,
+      "kind": "photo"
+    }
+  },
+  "mb_p4p800": {
+    "status": "hit",
+    "file": "mb_p4p800.jpg",
+    "entry": {
+      "url": "/images/components/mb_p4p800.jpg",
+      "thumbUrl": "/images/components/mb_p4p800.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ASUS_P4P800_SE-1.jpg",
+      "author": "László Szalai (Beyond silence)",
+      "license": "Public domain",
+      "width": 640,
+      "height": 853,
+      "kind": "photo"
+    }
+  },
+  "c_athlonxp_3200": {
+    "status": "hit",
+    "file": "c_athlonxp_3200.jpg",
+    "entry": {
+      "url": "/images/components/c_athlonxp_3200.jpg",
+      "thumbUrl": "/images/components/c_athlonxp_3200.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Athlon_XP_3200_a.jpg",
+      "author": "ADwarf",
+      "license": "Public domain",
+      "width": 640,
+      "height": 631,
+      "kind": "photo"
+    }
+  },
+  "c_p4_3ht": {
+    "status": "hit",
+    "file": "c_p4_3ht.jpg",
+    "entry": {
+      "url": "/images/components/c_p4_3ht.jpg",
+      "thumbUrl": "/images/components/c_p4_3ht.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_Pentium_4_HT_3.00_GHz_Prescott_microprocessor_Overclocking.JPG",
+      "author": "Julian Andres",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 536,
+      "kind": "photo"
+    }
+  },
+  "mb_a8v": {
+    "status": "miss"
+  },
+  "ps_300": {
+    "status": "miss"
+  },
+  "c_athlon64": {
+    "status": "miss"
+  },
+  "g_ati_x850xtpe": {
+    "status": "miss"
+  },
+  "g_ati_x800xt": {
+    "status": "miss"
+  },
+  "g_nv_6600gt": {
+    "status": "hit",
+    "file": "g_nv_6600gt.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_6600gt.jpg",
+      "thumbUrl": "/images/components/g_nv_6600gt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA_GeForce_6600_GT_Personal_Cinema.jpg",
+      "author": "Hyins",
+      "license": "Public domain",
+      "width": 640,
+      "height": 380,
+      "kind": "photo"
+    }
+  },
+  "g_nv_6800gt": {
+    "status": "hit",
+    "file": "g_nv_6800gt.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_6800gt.jpg",
+      "thumbUrl": "/images/components/g_nv_6800gt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:IMG_3321_6800GT_Top.jpg",
+      "author": "Paul Schultz",
+      "license": "CC BY 2.0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_nv_6800ultra": {
+    "status": "hit",
+    "file": "g_nv_6800ultra.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_6800ultra.jpg",
+      "thumbUrl": "/images/components/g_nv_6800ultra.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:GPU_NVidia_NV40_6800GT_AGP.jpg",
+      "author": "Appaloosa",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 640,
+      "kind": "photo"
+    }
+  },
+  "r_ddr_1gb": {
+    "status": "miss"
+  },
+  "c_fx57": {
+    "status": "miss"
+  },
+  "st_sata1": {
+    "status": "hit",
+    "file": "st_sata1.jpg",
+    "entry": {
+      "url": "/images/components/st_sata1.jpg",
+      "thumbUrl": "/images/components/st_sata1.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Western_Digital_3.5_Hard_Disk_Caviar_500gb_Blue.jpg",
+      "author": "Adryan R. Villanueva",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 852,
+      "kind": "photo"
+    }
+  },
+  "g_nv_7800gtx": {
+    "status": "hit",
+    "file": "g_nv_7800gtx.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_7800gtx.jpg",
+      "thumbUrl": "/images/components/g_nv_7800gtx.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:White7800gs.jpg",
+      "author": "Extremepilot at English Wikipedia",
+      "license": "Public domain",
+      "width": 640,
+      "height": 357,
+      "kind": "photo"
+    }
+  },
+  "cl_stock": {
+    "status": "miss"
+  },
+  "r_ddr2_4": {
+    "status": "miss"
+  },
+  "g_nv_8800gtx": {
+    "status": "hit",
+    "file": "g_nv_8800gtx.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_8800gtx.jpg",
+      "thumbUrl": "/images/components/g_nv_8800gtx.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Geforce8800gts.jpg",
+      "author": null,
+      "license": "Public domain",
+      "width": 640,
+      "height": 537,
+      "kind": "photo"
+    }
+  },
+  "g_nv_8800gts": {
+    "status": "hit",
+    "file": "g_nv_8800gts.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_8800gts.jpg",
+      "thumbUrl": "/images/components/g_nv_8800gts.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Geforce8800gts.jpg",
+      "author": null,
+      "license": "Public domain",
+      "width": 640,
+      "height": 537,
+      "kind": "photo"
+    }
+  },
+  "g_nv_7600gt": {
+    "status": "miss"
+  },
+  "g_nv_7900gt": {
+    "status": "miss"
+  },
+  "g_nv_7950gx2": {
+    "status": "hit",
+    "file": "g_nv_7950gx2.png",
+    "entry": {
+      "url": "/images/components/g_nv_7950gx2.png",
+      "thumbUrl": "/images/components/g_nv_7950gx2.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA_GeForce_6800_Ultra_%2B_GeForce_7950_GX2.png",
+      "author": "Hyins",
+      "license": "Public domain",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "mb_m2n": {
+    "status": "miss"
+  },
+  "g_ati_x1950xtx": {
+    "status": "hit",
+    "file": "g_ati_x1950xtx.jpg",
+    "entry": {
+      "url": "/images/components/g_ati_x1950xtx.jpg",
+      "thumbUrl": "/images/components/g_ati_x1950xtx.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:HIS_ATI_Radeon_X1950XTX_512Mb_GDDR4_Graphics_Card.jpg",
+      "author": "Sgroey",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 340,
+      "kind": "photo"
+    }
+  },
+  "g_ati_x1650xt": {
+    "status": "hit",
+    "file": "g_ati_x1650xt.jpg",
+    "entry": {
+      "url": "/images/components/g_ati_x1650xt.jpg",
+      "thumbUrl": "/images/components/g_ati_x1650xt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ATI_Radeon_X1650_Pro_-_ATI_N43000.00_0638AAY-4360.jpg",
+      "author": "Raimond Spekking",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 640,
+      "kind": "photo"
+    }
+  },
+  "g_ati_hd2900xt": {
+    "status": "hit",
+    "file": "g_ati_hd2900xt.jpg",
+    "entry": {
+      "url": "/images/components/g_ati_hd2900xt.jpg",
+      "thumbUrl": "/images/components/g_ati_hd2900xt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:HD_2900_XT.jpg",
+      "author": "F2FTech",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 336,
+      "kind": "photo"
+    }
+  },
+  "g_ati_hd3870": {
+    "status": "miss"
+  },
+  "g_nv_8400gs": {
+    "status": "hit",
+    "file": "g_nv_8400gs.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_8400gs.jpg",
+      "thumbUrl": "/images/components/g_nv_8400gs.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ASUS_NVIDIA_GeForce_EN8400GS_512MB.jpg",
+      "author": "Radoslaw Ziomber",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 425,
+      "kind": "photo"
+    }
+  },
+  "c_q6600": {
+    "status": "hit",
+    "file": "c_q6600.png",
+    "entry": {
+      "url": "/images/components/c_q6600.png",
+      "thumbUrl": "/images/components/c_q6600.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_Core_2_Quad_Q6600.png",
+      "author": "Trio3D",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 646,
+      "kind": "photo"
+    }
+  },
+  "g_nv_8800ultra": {
+    "status": "hit",
+    "file": "g_nv_8800ultra.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_8800ultra.jpg",
+      "thumbUrl": "/images/components/g_nv_8800ultra.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Geforce8800gts.jpg",
+      "author": null,
+      "license": "Public domain",
+      "width": 640,
+      "height": 537,
+      "kind": "photo"
+    }
+  },
+  "g_nv_8600gt": {
+    "status": "hit",
+    "file": "g_nv_8600gt.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_8600gt.jpg",
+      "thumbUrl": "/images/components/g_nv_8600gt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:8600_GT.jpg",
+      "author": "Mr.checker at German Wikipedia\n\n(Original text: Thomas Wydra)",
+      "license": "Public domain",
+      "width": 640,
+      "height": 411,
+      "kind": "photo"
+    }
+  },
+  "mb_retro775": {
+    "status": "miss"
+  },
+  "c_i7_920": {
+    "status": "hit",
+    "file": "c_i7_920.jpg",
+    "entry": {
+      "url": "/images/components/c_i7_920.jpg",
+      "thumbUrl": "/images/components/c_i7_920.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_Core_I7-920_Boxed_-_8.JPG",
+      "author": "\n\n\n\n\n\nThis photography was taken by:\nAlan Lorenzo - (User talk) (Email)  (Contributions)\nYou can see my photo gallery here\n\n\nThese pictures are licensed by CC BY-SA 3.0\n\n",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gtx260": {
+    "status": "miss"
+  },
+  "g_nv_9800gx2": {
+    "status": "hit",
+    "file": "g_nv_9800gx2.png",
+    "entry": {
+      "url": "/images/components/g_nv_9800gx2.png",
+      "thumbUrl": "/images/components/g_nv_9800gx2.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Evga_9800_gx2.png",
+      "author": "Raku2040",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 301,
+      "kind": "photo"
+    }
+  },
+  "mb_p6t": {
+    "status": "hit",
+    "file": "mb_p6t.jpg",
+    "entry": {
+      "url": "/images/components/mb_p6t.jpg",
+      "thumbUrl": "/images/components/mb_p6t.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:P6T_Deluxe_V2.jpg",
+      "author": "Benutzer:Diamond",
+      "license": "GFDL",
+      "width": 640,
+      "height": 492,
+      "kind": "photo"
+    }
+  },
+  "g_nv_9800gtx": {
+    "status": "hit",
+    "file": "g_nv_9800gtx.png",
+    "entry": {
+      "url": "/images/components/g_nv_9800gtx.png",
+      "thumbUrl": "/images/components/g_nv_9800gtx.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Evga_9800_gx2.png",
+      "author": "Raku2040",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 301,
+      "kind": "photo"
+    }
+  },
+  "c_phenom_9950": {
+    "status": "hit",
+    "file": "c_phenom_9950.jpg",
+    "entry": {
+      "url": "/images/components/c_phenom_9950.jpg",
+      "thumbUrl": "/images/components/c_phenom_9950.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Back_of_a_Phenom_X4_9950.jpg",
+      "author": "Le Concorde",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 530,
+      "kind": "photo"
+    }
+  },
+  "mb_m3a": {
+    "status": "miss"
+  },
+  "c_e8400": {
+    "status": "hit",
+    "file": "c_e8400.png",
+    "entry": {
+      "url": "/images/components/c_e8400.png",
+      "thumbUrl": "/images/components/c_e8400.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Core_2_duo_e8400_slb9j_reverse.png",
+      "author": "Rjluna2",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 645,
+      "kind": "photo"
+    }
+  },
+  "g_ati_hd4870x2": {
+    "status": "hit",
+    "file": "g_ati_hd4870x2.jpg",
+    "entry": {
+      "url": "/images/components/g_ati_hd4870x2.jpg",
+      "thumbUrl": "/images/components/g_ati_hd4870x2.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:PowerColor_ATI_Radeon_HD_4870_X2.jpg",
+      "author": "Fake Shemp",
+      "license": "CC0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_ati_hd4870": {
+    "status": "hit",
+    "file": "g_ati_hd4870.jpg",
+    "entry": {
+      "url": "/images/components/g_ati_hd4870.jpg",
+      "thumbUrl": "/images/components/g_ati_hd4870.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Radeon4870.jpg",
+      "author": "TorQue Astur",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 449,
+      "kind": "photo"
+    }
+  },
+  "g_ati_hd3870x2": {
+    "status": "hit",
+    "file": "g_ati_hd3870x2.jpg",
+    "entry": {
+      "url": "/images/components/g_ati_hd3870x2.jpg",
+      "thumbUrl": "/images/components/g_ati_hd3870x2.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ati_3870_X2.jpg",
+      "author": "Anandtech",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 311,
+      "kind": "photo"
+    }
+  },
+  "g_nv_9600gt": {
+    "status": "hit",
+    "file": "g_nv_9600gt.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_9600gt.jpg",
+      "thumbUrl": "/images/components/g_nv_9600gt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Geforce_9600_GT_GE.JPG",
+      "author": "自分",
+      "license": "Public domain",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gtx280": {
+    "status": "miss"
+  },
+  "g_ati_hd5770": {
+    "status": "hit",
+    "file": "g_ati_hd5770.jpg",
+    "entry": {
+      "url": "/images/components/g_ati_hd5770.jpg",
+      "thumbUrl": "/images/components/g_ati_hd5770.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ATI_Radeon_HD_5770_outputs_panel_%26_power_supply_socket.jpg",
+      "author": "Monstapix",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_ati_hd4890": {
+    "status": "miss"
+  },
+  "g_ati_hd5870": {
+    "status": "hit",
+    "file": "g_ati_hd5870.jpg",
+    "entry": {
+      "url": "/images/components/g_ati_hd5870.jpg",
+      "thumbUrl": "/images/components/g_ati_hd5870.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sapphire_Radeon_HD_5870-back_PNr%C2%B00309.jpg",
+      "author": "D-Kuru",
+      "license": "CC BY-SA 3.0 at",
+      "width": 640,
+      "height": 1765,
+      "kind": "photo"
+    }
+  },
+  "g_ati_hd5970": {
+    "status": "miss"
+  },
+  "mb_790fx": {
+    "status": "miss"
+  },
+  "g_nv_gtx285": {
+    "status": "miss"
+  },
+  "g_nv_gtx295": {
+    "status": "miss"
+  },
+  "c_phenom_ii_965": {
+    "status": "miss"
+  },
+  "g_amd_hd6970": {
+    "status": "miss"
+  },
+  "g_nv_gtx580": {
+    "status": "hit",
+    "file": "g_nv_gtx580.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx580.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx580.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA@40nm@Fermi@GF110@GeForce_GTX_580@UA10B338_1041A1_N2Y540.000_GF110-375-A1_DSC04152_(27576804994).jpg",
+      "author": "Fritzchens Fritz from Berlin",
+      "license": "CC0",
+      "width": 640,
+      "height": 415,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gtx470": {
+    "status": "miss"
+  },
+  "g_nv_gtx460": {
+    "status": "hit",
+    "file": "g_nv_gtx460.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx460.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx460.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:GeForce_GTX_460_1024MB_DDR5.JPG",
+      "author": "Konradr",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_amd_hd6870": {
+    "status": "miss"
+  },
+  "g_nv_gtx480": {
+    "status": "hit",
+    "file": "g_nv_gtx480.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx480.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx480.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA_GeForce_GTX_480.jpg",
+      "author": "Hyins",
+      "license": "Public domain",
+      "width": 640,
+      "height": 380,
+      "kind": "photo"
+    }
+  },
+  "g_amd_hd6990": {
+    "status": "miss"
+  },
+  "r_ddr3_8": {
+    "status": "hit",
+    "file": "r_ddr3_8.jpg",
+    "entry": {
+      "url": "/images/components/r_ddr3_8.jpg",
+      "thumbUrl": "/images/components/r_ddr3_8.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kingston_KHX1600C9D3X2K2-8GX_at_ASUS_P8H67_Rev_3.00.jpg",
+      "author": "Mixabest",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "c_2600k": {
+    "status": "miss"
+  },
+  "g_nv_gtx560ti": {
+    "status": "miss"
+  },
+  "g_nv_gtx590": {
+    "status": "hit",
+    "file": "g_nv_gtx590.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx590.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx590.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:EVGA_GeForce_GTX_590.jpg",
+      "author": "Intel Free Press",
+      "license": "CC BY 2.0",
+      "width": 640,
+      "height": 640,
+      "kind": "photo"
+    }
+  },
+  "mb_p8z68": {
+    "status": "miss"
+  },
+  "mb_990fx": {
+    "status": "miss"
+  },
+  "c_3770k": {
+    "status": "miss"
+  },
+  "c_fx8350": {
+    "status": "miss"
+  },
+  "ps_450group": {
+    "status": "miss"
+  },
+  "g_amd_hd7970": {
+    "status": "miss"
+  },
+  "g_amd_hd7870": {
+    "status": "miss"
+  },
+  "g_nv_gtx660ti": {
+    "status": "miss"
+  },
+  "g_nv_gtx690": {
+    "status": "miss"
+  },
+  "g_nv_gtx680": {
+    "status": "miss"
+  },
+  "g_amd_r9290x": {
+    "status": "miss"
+  },
+  "g_nv_gtx770": {
+    "status": "hit",
+    "file": "g_nv_gtx770.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx770.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx770.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Gigabyte_GV-N770OC-4GD_Rev2.0.jpg",
+      "author": "Markus Säynevirta",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 358,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gtx780ti": {
+    "status": "miss"
+  },
+  "g_nv_gtxtitan": {
+    "status": "hit",
+    "file": "g_nv_gtxtitan.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtxtitan.jpg",
+      "thumbUrl": "/images/components/g_nv_gtxtitan.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nvidia_GeForce_GTX_Titan_-_Wakueumbau_DSCF4506_(16425920018).jpg",
+      "author": "Fritzchens Fritz from Berlin",
+      "license": "CC0",
+      "width": 640,
+      "height": 447,
+      "kind": "photo"
+    }
+  },
+  "g_amd_hd7990": {
+    "status": "miss"
+  },
+  "mb_z97": {
+    "status": "miss"
+  },
+  "g_nv_gtx750ti": {
+    "status": "miss"
+  },
+  "g_nv_titanz": {
+    "status": "miss"
+  },
+  "g_nv_gtx970": {
+    "status": "hit",
+    "file": "g_nv_gtx970.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx970.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx970.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA@28nm@Maxwell@GM204@GeForce_GTX_970@S_TAIWAN_1433A1_T4N807.M1P_GM204-200-A1_Stack-DSC02252-DSC02356_-_ZS-retouched_(29702874356).jpg",
+      "author": "Fritzchens Fritz from Berlin",
+      "license": "CC0",
+      "width": 640,
+      "height": 418,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gtx980": {
+    "status": "hit",
+    "file": "g_nv_gtx980.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx980.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx980.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nvidia@28nm@Maxwell@GM200@GeForce_GTX_980_Ti@A_TAIWAN_1542A1_TFH800.COW_GM200-310-A1_Stack-DSC10174.jpg",
+      "author": "FritzchensFritz",
+      "license": "CC0",
+      "width": 640,
+      "height": 427,
+      "kind": "photo"
+    }
+  },
+  "c_4790k": {
+    "status": "hit",
+    "file": "c_4790k.png",
+    "entry": {
+      "url": "/images/components/c_4790k.png",
+      "thumbUrl": "/images/components/c_4790k.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7-4790K_(boxed)_(Mike_Batista_Games)_01.png",
+      "author": "Bati Kard",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "cl_nhd15": {
+    "status": "miss"
+  },
+  "g_nv_titanx_m": {
+    "status": "miss"
+  },
+  "c_6700k": {
+    "status": "hit",
+    "file": "c_6700k.jpg",
+    "entry": {
+      "url": "/images/components/c_6700k.jpg",
+      "thumbUrl": "/images/components/c_6700k.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7-6700K,_GTX_1080_PC.jpg",
+      "author": "Blake Patterson",
+      "license": "CC BY 2.0",
+      "width": 640,
+      "height": 853,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gtx980ti": {
+    "status": "hit",
+    "file": "g_nv_gtx980ti.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx980ti.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx980ti.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nvidia@28nm@Maxwell@GM200@GeForce_GTX_980_Ti@A_TAIWAN_1542A1_TFH800.COW_GM200-310-A1_Stack-DSC10174.jpg",
+      "author": "FritzchensFritz",
+      "license": "CC0",
+      "width": 640,
+      "height": 427,
+      "kind": "photo"
+    }
+  },
+  "mb_z170": {
+    "status": "miss"
+  },
+  "g_amd_furyx": {
+    "status": "miss"
+  },
+  "g_amd_r9390x": {
+    "status": "miss"
+  },
+  "g_nv_gtx960": {
+    "status": "miss"
+  },
+  "g_nv_gtx1060_6g": {
+    "status": "hit",
+    "file": "g_nv_gtx1060_6g.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx1060_6g.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx1060_6g.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA@16nm@Pascal@GP106@GeForce_GTX_1060@A_TAIWAN_1634A1_PAUS02.001_GP106-400-A1_DSCx1_bottom_layer_closeup_(36272074645).jpg",
+      "author": "Fritzchens Fritz from Berlin",
+      "license": "CC0",
+      "width": 640,
+      "height": 425,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gtx1070": {
+    "status": "hit",
+    "file": "g_nv_gtx1070.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx1070.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx1070.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA@16nm@Pascal@GP104@GeForce_GTX_1070@A_TAIWAN_1617A1_PA3R12.00P_GP104-200-A1_Stack-DSC02663-DSC02734_-_ZS-retouched_(29738735845).jpg",
+      "author": "Fritzchens Fritz from Berlin",
+      "license": "CC0",
+      "width": 640,
+      "height": 427,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gtx1050ti": {
+    "status": "hit",
+    "file": "g_nv_gtx1050ti.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx1050ti.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx1050ti.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:EVGA_GeForce_GTX_1050_Superclocked,_rear.jpg",
+      "author": "FreeMediaKid!",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 427,
+      "kind": "photo"
+    }
+  },
+  "st_hdd": {
+    "status": "miss"
+  },
+  "g_nv_gtx1080": {
+    "status": "hit",
+    "file": "g_nv_gtx1080.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx1080.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx1080.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:GDDR5X_1080ti.jpg",
+      "author": "Fritzchens Fritz Crop by Geni",
+      "license": "CC0",
+      "width": 640,
+      "height": 382,
+      "kind": "photo"
+    }
+  },
+  "r_ddr4_16": {
+    "status": "miss"
+  },
+  "g_amd_rx480": {
+    "status": "miss"
+  },
+  "g_amd_produo": {
+    "status": "miss"
+  },
+  "g_nv_titanxp": {
+    "status": "hit",
+    "file": "g_nv_titanxp.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_titanxp.jpg",
+      "thumbUrl": "/images/components/g_nv_titanxp.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:GTX_Titan_Xp_4_way_SLI.jpg",
+      "author": "TzarN64",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 1040,
+      "kind": "photo"
+    }
+  },
+  "c_8700k": {
+    "status": "hit",
+    "file": "c_8700k.jpg",
+    "entry": {
+      "url": "/images/components/c_8700k.jpg",
+      "thumbUrl": "/images/components/c_8700k.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel@14nm%2B%2B@CoffeeLake@Coffee_Lake-S@i7-8700K@SR3QR_DSCx08_poly@20xDIC.jpg",
+      "author": "Fritzchens Fritz",
+      "license": "CC0",
+      "width": 640,
+      "height": 1043,
+      "kind": "photo"
+    }
+  },
+  "c_1800x": {
+    "status": "hit",
+    "file": "c_1800x.jpg",
+    "entry": {
+      "url": "/images/components/c_1800x.jpg",
+      "thumbUrl": "/images/components/c_1800x.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_1800X_DSC_0251.jpg",
+      "author": "Michael Wolf (Webseite)",
+      "license": "CC BY-SA 3.0",
+      "width": 640,
+      "height": 609,
+      "kind": "photo"
+    }
+  },
+  "g_amd_vega56": {
+    "status": "miss"
+  },
+  "g_rx580": {
+    "status": "hit",
+    "file": "g_rx580.jpg",
+    "entry": {
+      "url": "/images/components/g_rx580.jpg",
+      "thumbUrl": "/images/components/g_rx580.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sapphire_RX_580_Nitro%2B.jpg",
+      "author": "Verte95",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 364,
+      "kind": "photo"
+    }
+  },
+  "g_1080ti": {
+    "status": "hit",
+    "file": "g_1080ti.jpg",
+    "entry": {
+      "url": "/images/components/g_1080ti.jpg",
+      "thumbUrl": "/images/components/g_1080ti.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nvidia_GeForce_GTX_1080_Ti_Founders_Edition_unpacking_(26810536964).jpg",
+      "author": "Manifest Interactive from Portland, OR, USA",
+      "license": "CC BY 2.0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gtx1070ti": {
+    "status": "hit",
+    "file": "g_nv_gtx1070ti.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx1070ti.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx1070ti.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ASUS_GTX_1070_Ti.jpg",
+      "author": "Tiia Monto",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 449,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gt1030": {
+    "status": "miss"
+  },
+  "g_nv_titanv": {
+    "status": "hit",
+    "file": "g_nv_titanv.png",
+    "entry": {
+      "url": "/images/components/g_nv_titanv.png",
+      "thumbUrl": "/images/components/g_nv_titanv.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA_Titan_RTX_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_001.png",
+      "author": "极客湾Geekerwan",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "g_amd_vega64": {
+    "status": "miss"
+  },
+  "g_nv_titanrtx": {
+    "status": "hit",
+    "file": "g_nv_titanrtx.png",
+    "entry": {
+      "url": "/images/components/g_nv_titanrtx.png",
+      "thumbUrl": "/images/components/g_nv_titanrtx.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA_Titan_RTX_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_001.png",
+      "author": "极客湾Geekerwan",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "g_amd_rx590": {
+    "status": "miss"
+  },
+  "g_2080ti": {
+    "status": "hit",
+    "file": "g_2080ti.jpg",
+    "entry": {
+      "url": "/images/components/g_2080ti.jpg",
+      "thumbUrl": "/images/components/g_2080ti.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RTX_2080_TI_DSC05033_(45786864532).jpg",
+      "author": "Fritzchens Fritz from Berlin",
+      "license": "CC0",
+      "width": 640,
+      "height": 425,
+      "kind": "photo"
+    }
+  },
+  "ps_500": {
+    "status": "miss"
+  },
+  "c_2700x": {
+    "status": "miss"
+  },
+  "c_9900k": {
+    "status": "hit",
+    "file": "c_9900k.jpg",
+    "entry": {
+      "url": "/images/components/c_9900k.jpg",
+      "thumbUrl": "/images/components/c_9900k.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_i9-9900K.jpg",
+      "author": "ElooKoN",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 427,
+      "kind": "photo"
+    }
+  },
+  "mb_z390": {
+    "status": "miss"
+  },
+  "mb_b450": {
+    "status": "miss"
+  },
+  "g_amd_vii": {
+    "status": "miss"
+  },
+  "g_nv_rtx2080s": {
+    "status": "miss"
+  },
+  "g_amd_rx5700xt": {
+    "status": "hit",
+    "file": "g_amd_rx5700xt.jpg",
+    "entry": {
+      "url": "/images/components/g_amd_rx5700xt.jpg",
+      "thumbUrl": "/images/components/g_amd_rx5700xt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AMD@7nm@RDNA_1th_gen@Navi10@Radeon_RX_5700_XT@215-0917210@_DSCx2@NIR_-_Flickr_-_FritzchensFritz.jpg",
+      "author": "Fritzchens Fritz from Berlin",
+      "license": "CC0",
+      "width": 640,
+      "height": 513,
+      "kind": "photo"
+    }
+  },
+  "g_nv_rtx2060": {
+    "status": "hit",
+    "file": "g_nv_rtx2060.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_rtx2060.jpg",
+      "thumbUrl": "/images/components/g_nv_rtx2060.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nvidia@12nm@Turing@TU106@GeForce_RTX_2060@S_TAIWAN_1844A1_PM4F79.000_TU106-200A-KA-A1_DSCx1.jpg",
+      "author": "Fritzchens Fritz",
+      "license": "CC0",
+      "width": 640,
+      "height": 641,
+      "kind": "photo"
+    }
+  },
+  "g_nv_rtx2060s": {
+    "status": "miss"
+  },
+  "g_nv_gtx1650": {
+    "status": "hit",
+    "file": "g_nv_gtx1650.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx1650.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx1650.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:GTX_1650_Mobile.jpg",
+      "author": "Jawad.N.N",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 640,
+      "kind": "photo"
+    }
+  },
+  "g_nv_gtx1660s": {
+    "status": "miss"
+  },
+  "c_3900x": {
+    "status": "hit",
+    "file": "c_3900x.jpg",
+    "entry": {
+      "url": "/images/components/c_3900x.jpg",
+      "thumbUrl": "/images/components/c_3900x.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_3900X_-_ISO_Back.jpg",
+      "author": "--P399915243 (Diskussion) 10:50, 27. Okt. 2020 (CET)",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_nv_rtx2070s": {
+    "status": "hit",
+    "file": "g_nv_rtx2070s.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_rtx2070s.jpg",
+      "thumbUrl": "/images/components/g_nv_rtx2070s.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Colorful_Nvidia_GeForce_RTX_2070_Super_in_case.jpg",
+      "author": "KMBDENNISTRIDENT",
+      "license": "CC0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_amd_rx5600xt": {
+    "status": "hit",
+    "file": "g_amd_rx5600xt.jpg",
+    "entry": {
+      "url": "/images/components/g_amd_rx5600xt.jpg",
+      "thumbUrl": "/images/components/g_amd_rx5600xt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ASUS_TUF_Gaming_X3_Radeon_RX_5600_XT_EVO_6GB_GDDR6_-_front_view.jpg",
+      "author": "ITEagle Europe - Sebastiaan Broekhoven",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 640,
+      "kind": "photo"
+    }
+  },
+  "r_ddr4_32": {
+    "status": "miss"
+  },
+  "g_nv_rtx3090": {
+    "status": "hit",
+    "file": "g_nv_rtx3090.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_rtx3090.jpg",
+      "thumbUrl": "/images/components/g_nv_rtx3090.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RTX_3090_Founders_Edition.jpg",
+      "author": "Adam Kapetanakis",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_nv_rtx3080": {
+    "status": "hit",
+    "file": "g_nv_rtx3080.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_rtx3080.jpg",
+      "thumbUrl": "/images/components/g_nv_rtx3080.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ASUS_ROG_STRIX-RTX3080-O10G-Gundam_20210131.jpg",
+      "author": "Solomon203",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "g_nv_rtx3070": {
+    "status": "hit",
+    "file": "g_nv_rtx3070.png",
+    "entry": {
+      "url": "/images/components/g_nv_rtx3070.png",
+      "thumbUrl": "/images/components/g_nv_rtx3070.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RTX_3070-Deb%C3%BCt-Test_-_Kann_eine_Mittelklasse-_bis_High-End-Karte_der_2080Ti_das_Wasser_reichen%3F_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_02.png",
+      "author": "极客湾Geekerwan",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "g_nv_rtx3060ti": {
+    "status": "miss"
+  },
+  "mb_z490": {
+    "status": "miss"
+  },
+  "g_amd_rx6800xt": {
+    "status": "hit",
+    "file": "g_amd_rx6800xt.jpg",
+    "entry": {
+      "url": "/images/components/g_amd_rx6800xt.jpg",
+      "thumbUrl": "/images/components/g_amd_rx6800xt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Amd-radeon-rx6800xt-from2020year-front.jpg",
+      "author": "Vitaly Zdanevich",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 306,
+      "kind": "photo"
+    }
+  },
+  "mb_b550": {
+    "status": "miss"
+  },
+  "st_sata": {
+    "status": "miss"
+  },
+  "c_5900x": {
+    "status": "hit",
+    "file": "c_5900x.jpg",
+    "entry": {
+      "url": "/images/components/c_5900x.jpg",
+      "thumbUrl": "/images/components/c_5900x.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_5900X_by_BugWarp_02.jpg",
+      "author": "BugWarp",
+      "license": "CC0",
+      "width": 640,
+      "height": 687,
+      "kind": "photo"
+    }
+  },
+  "c_5600x": {
+    "status": "hit",
+    "file": "c_5600x.jpg",
+    "entry": {
+      "url": "/images/components/c_5600x.jpg",
+      "thumbUrl": "/images/components/c_5600x.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AMD@7nm(12nmIOD)@Zen3@Vermeer@Ryzen_5_5600X@100-000000064_BG_2042SUS_9JF6228V00014_DSCx2.jpg",
+      "author": "Fritzchens Fritz",
+      "license": "CC BY 2.0",
+      "width": 640,
+      "height": 640,
+      "kind": "photo"
+    }
+  },
+  "cs_4000d": {
+    "status": "miss"
+  },
+  "c_10900k": {
+    "status": "miss"
+  },
+  "cs_nr200": {
+    "status": "miss"
+  },
+  "g_3060": {
+    "status": "hit",
+    "file": "g_3060.png",
+    "entry": {
+      "url": "/images/components/g_3060.png",
+      "thumbUrl": "/images/components/g_3060.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RTX_3060_12GB_GDDR6_with_GA104.png",
+      "author": "Inobump",
+      "license": "CC0",
+      "width": 640,
+      "height": 481,
+      "kind": "photo"
+    }
+  },
+  "g_6700xt": {
+    "status": "hit",
+    "file": "g_6700xt.jpg",
+    "entry": {
+      "url": "/images/components/g_6700xt.jpg",
+      "thumbUrl": "/images/components/g_6700xt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AMD@7nm@RDNA_2nd_gen@Navi22@Radeon_RX_6700_XT@215-0932396@_DSCx06_blended@SWIR.jpg",
+      "author": "FritzchensFritz",
+      "license": "CC0",
+      "width": 640,
+      "height": 639,
+      "kind": "photo"
+    }
+  },
+  "c_11900k": {
+    "status": "miss"
+  },
+  "g_3080ti": {
+    "status": "miss"
+  },
+  "c_12900k": {
+    "status": "miss"
+  },
+  "g_nv_rtx3070ti": {
+    "status": "miss"
+  },
+  "mb_z690": {
+    "status": "miss"
+  },
+  "ps_650": {
+    "status": "miss"
+  },
+  "c_5800x3d": {
+    "status": "hit",
+    "file": "c_5800x3d.jpg",
+    "entry": {
+      "url": "/images/components/c_5800x3d.jpg",
+      "thumbUrl": "/images/components/c_5800x3d.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5800X3D.jpg",
+      "author": "Phiarc",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 642,
+      "kind": "photo"
+    }
+  },
+  "c_12400f": {
+    "status": "hit",
+    "file": "c_12400f.jpg",
+    "entry": {
+      "url": "/images/components/c_12400f.jpg",
+      "thumbUrl": "/images/components/c_12400f.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel@intel7(10nmESF)@AlderLake@ADL-S(6P%2B0E)@i5-12400F@SRL5Z_DSCx10_poly@5xExt.jpg",
+      "author": "Fritzchens Fritz",
+      "license": "CC0",
+      "width": 640,
+      "height": 422,
+      "kind": "photo"
+    }
+  },
+  "mb_z790": {
+    "status": "miss"
+  },
+  "mb_x670e": {
+    "status": "miss"
+  },
+  "mb_b650": {
+    "status": "miss"
+  },
+  "r_ddr5_32": {
+    "status": "miss"
+  },
+  "cl_ak620": {
+    "status": "miss"
+  },
+  "cl_ag400": {
+    "status": "miss"
+  },
+  "g_4090": {
+    "status": "hit",
+    "file": "g_4090.png",
+    "entry": {
+      "url": "/images/components/g_4090.png",
+      "thumbUrl": "/images/components/g_4090.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NVIDIA_RTX_4090_Founders_Edition_-_Verpackung_(ZMASLO).png",
+      "author": "ZMASLO",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "st_gen4_2t": {
+    "status": "hit",
+    "file": "st_gen4_2t.png",
+    "entry": {
+      "url": "/images/components/st_gen4_2t.png",
+      "thumbUrl": "/images/components/st_gen4_2t.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Samsung_MZ-V9P4T0_(Samsung_990_PRO_4TB)_20250226_001.png",
+      "author": "PantheraLeo1359531",
+      "license": "CC BY 4.0",
+      "width": 640,
+      "height": 199,
+      "kind": "photo"
+    }
+  },
+  "st_gen4_1t": {
+    "status": "miss"
+  },
+  "cs_h7flow": {
+    "status": "miss"
+  },
+  "g_nv_rtx3090ti": {
+    "status": "miss"
+  },
+  "g_3050": {
+    "status": "miss"
+  },
+  "c_7700x": {
+    "status": "hit",
+    "file": "c_7700x.jpg",
+    "entry": {
+      "url": "/images/components/c_7700x.jpg",
+      "thumbUrl": "/images/components/c_7700x.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ryzen_update_to_gaming_PC_(Ryzen_7_7700X).jpg",
+      "author": "Blake Patterson",
+      "license": "CC BY 2.0",
+      "width": 640,
+      "height": 734,
+      "kind": "photo"
+    }
+  },
+  "c_13900k": {
+    "status": "hit",
+    "file": "c_13900k.jpg",
+    "entry": {
+      "url": "/images/components/c_13900k.jpg",
+      "thumbUrl": "/images/components/c_13900k.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel@intel7(10nmESF)@RaptorLake@RPL(8P%2B16E)@i9-13900K@ES_DSCx05_poly@5xExt.jpg",
+      "author": "Fritzchens Fritz",
+      "license": "CC0",
+      "width": 640,
+      "height": 295,
+      "kind": "photo"
+    }
+  },
+  "c_7950x": {
+    "status": "miss"
+  },
+  "g_7900xtx": {
+    "status": "hit",
+    "file": "g_7900xtx.jpg",
+    "entry": {
+      "url": "/images/components/g_7900xtx.jpg",
+      "thumbUrl": "/images/components/g_7900xtx.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sapphire_AMD_Radeon_RX_7900_XTX.jpg",
+      "author": "Geni",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 401,
+      "kind": "photo"
+    }
+  },
+  "mb_itx": {
+    "status": "miss"
+  },
+  "g_amd_rx6950xt": {
+    "status": "miss"
+  },
+  "c_13600k": {
+    "status": "miss"
+  },
+  "c_7600x": {
+    "status": "miss"
+  },
+  "cs_o11": {
+    "status": "miss"
+  },
+  "st_gen5": {
+    "status": "miss"
+  },
+  "c_155h": {
+    "status": "miss"
+  },
+  "cl_aio360": {
+    "status": "miss"
+  },
+  "c_7800x3d": {
+    "status": "hit",
+    "file": "c_7800x3d.jpg",
+    "entry": {
+      "url": "/images/components/c_7800x3d.jpg",
+      "thumbUrl": "/images/components/c_7800x3d.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AMD@5nmCCD(6nmIOD)@Zen4@Raphael@Ryzen_7_7800X3D@100-000000910_BS_2312PGY_9LW3390030138_DSCx04.jpg",
+      "author": "FritzchensFritz",
+      "license": "CC0",
+      "width": 640,
+      "height": 640,
+      "kind": "photo"
+    }
+  },
+  "g_7800xt": {
+    "status": "miss"
+  },
+  "ps_sfx750": {
+    "status": "miss"
+  },
+  "c_14900k": {
+    "status": "hit",
+    "file": "c_14900k.webp",
+    "entry": {
+      "url": "/images/components/c_14900k.webp",
+      "thumbUrl": "/images/components/c_14900k.webp",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_i9-14900K.webp",
+      "author": "ArtyomK2707",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 613,
+      "kind": "photo"
+    }
+  },
+  "g_4060": {
+    "status": "hit",
+    "file": "g_4060.png",
+    "entry": {
+      "url": "/images/components/g_4060.png",
+      "thumbUrl": "/images/components/g_4060.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Video_%C3%BCber_die_GeForce_RTX_4060_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_02.png",
+      "author": "极客湾Geekerwan",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "g_4060ti": {
+    "status": "hit",
+    "file": "g_4060ti.png",
+    "entry": {
+      "url": "/images/components/g_4060ti.png",
+      "thumbUrl": "/images/components/g_4060ti.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RTX4060TI%E8%AF%84%E6%B5%8B%EF%BC%9A%E5%8F%AA%E6%AF%943060TI%E5%BF%AB10%25_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_03.png",
+      "author": "极客湾Geekerwan",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "ps_850": {
+    "status": "miss"
+  },
+  "ps_1000": {
+    "status": "miss"
+  },
+  "ps_1200": {
+    "status": "miss"
+  },
+  "g_amd_mi300x": {
+    "status": "miss"
+  },
+  "g_amd_rx7900gre": {
+    "status": "hit",
+    "file": "g_amd_rx7900gre.jpg",
+    "entry": {
+      "url": "/images/components/g_amd_rx7900gre.jpg",
+      "thumbUrl": "/images/components/g_amd_rx7900gre.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:7900XT_1.jpg",
+      "author": "Shinobara",
+      "license": "CC BY 4.0",
+      "width": 640,
+      "height": 843,
+      "kind": "photo"
+    }
+  },
+  "g_4080s": {
+    "status": "hit",
+    "file": "g_4080s.png",
+    "entry": {
+      "url": "/images/components/g_4080s.png",
+      "thumbUrl": "/images/components/g_4080s.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_05.png",
+      "author": "极客湾Geekerwan",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "g_amd_rx7600xt": {
+    "status": "miss"
+  },
+  "g_4070ts": {
+    "status": "hit",
+    "file": "g_4070ts.png",
+    "entry": {
+      "url": "/images/components/g_4070ts.png",
+      "thumbUrl": "/images/components/g_4070ts.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RTX_4070_Ti_SUPER_im_Vergleich_mit_anderen_RTX_40er-Karten_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_001.png",
+      "author": "极客湾Geekerwan",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "r_ddr5_64": {
+    "status": "miss"
+  },
+  "c_9800x3d": {
+    "status": "hit",
+    "file": "c_9800x3d.png",
+    "entry": {
+      "url": "/images/components/c_9800x3d.png",
+      "thumbUrl": "/images/components/c_9800x3d.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Video_zum_AMD_Ryzen_7_9800X3D_(ZMASLO)_07.png",
+      "author": "ZMASLO",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "mb_z890": {
+    "status": "miss"
+  },
+  "c_9700x": {
+    "status": "hit",
+    "file": "c_9700x.png",
+    "entry": {
+      "url": "/images/components/c_9700x.png",
+      "thumbUrl": "/images/components/c_9700x.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ryzen_9700X_-_AMD_wpad%C5%82o_we_w%C5%82asn%C4%85_pu%C5%82apk%C4%99!-00.02.37.600_(ZMASLO).png",
+      "author": "ZMASLO",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "c_9950x": {
+    "status": "hit",
+    "file": "c_9950x.png",
+    "entry": {
+      "url": "/images/components/c_9950x.png",
+      "thumbUrl": "/images/components/c_9950x.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RYZEN_9_9950X_-_DOVRESTI_COMPRARLO%C2%BF_%F0%9F%95%B9%EF%B8%8F_(1920p_25fps_VP9_LQ-160kbit_Opus)-00.14.09.600_(MoreThanTech).png",
+      "author": "MoreThanTech",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 320,
+      "kind": "photo"
+    }
+  },
+  "c_285k": {
+    "status": "miss"
+  },
+  "g_4070s": {
+    "status": "hit",
+    "file": "g_4070s.png",
+    "entry": {
+      "url": "/images/components/g_4070s.png",
+      "thumbUrl": "/images/components/g_4070s.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RTX_4070_Ti_SUPER_im_Vergleich_mit_anderen_RTX_40er-Karten_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_001.png",
+      "author": "极客湾Geekerwan",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "g_amd_rx9070xt": {
+    "status": "hit",
+    "file": "g_amd_rx9070xt.png",
+    "entry": {
+      "url": "/images/components/g_amd_rx9070xt.png",
+      "thumbUrl": "/images/components/g_amd_rx9070xt.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ECCO_FSR_4,_RX_9070_E_9070_XT,_AMD_NON_DEVI_SBAGLIARE!_%F0%9F%9A%80_(1920p_30fps_VP9_LQ-128kbit_AAC)-00.00.02.654.png",
+      "author": "MoreThanTech",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 320,
+      "kind": "photo"
+    }
+  },
+  "g_amd_rx9070": {
+    "status": "hit",
+    "file": "g_amd_rx9070.png",
+    "entry": {
+      "url": "/images/components/g_amd_rx9070.png",
+      "thumbUrl": "/images/components/g_amd_rx9070.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ECCO_FSR_4,_RX_9070_E_9070_XT,_AMD_NON_DEVI_SBAGLIARE!_%F0%9F%9A%80_(1920p_30fps_VP9_LQ-128kbit_AAC)-00.00.02.654.png",
+      "author": "MoreThanTech",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 320,
+      "kind": "photo"
+    }
+  },
+  "g_amd_rx9060xt": {
+    "status": "hit",
+    "file": "g_amd_rx9060xt.png",
+    "entry": {
+      "url": "/images/components/g_amd_rx9060xt.png",
+      "thumbUrl": "/images/components/g_amd_rx9060xt.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Radeon_RX9060XT.png",
+      "author": "Padgriffin",
+      "license": "CC BY 4.0",
+      "width": 640,
+      "height": 383,
+      "kind": "photo"
+    }
+  },
+  "g_amd_rx9070xtx": {
+    "status": "hit",
+    "file": "g_amd_rx9070xtx.png",
+    "entry": {
+      "url": "/images/components/g_amd_rx9070xtx.png",
+      "thumbUrl": "/images/components/g_amd_rx9070xtx.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_RX9070XT%E6%98%BE%E5%8D%A1%E8%AF%84%E6%B5%8B%EF%BC%9A%E6%9A%B4%E6%89%9350%E7%B3%BB%EF%BC%8CA%E5%8D%A1%E6%94%AF%E6%A3%B1%E8%B5%B7%E6%9D%A5%E4%BA%86%EF%BC%81_(2160p_60fps_VP9-128kbit_AAC)-00.01.16.273.png",
+      "author": "极客湾Geekerwan",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "g_5090": {
+    "status": "hit",
+    "file": "g_5090.png",
+    "entry": {
+      "url": "/images/components/g_5090.png",
+      "thumbUrl": "/images/components/g_5090.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RTX_5090_-_du%C5%BCa_wydajno%C5%9B%C4%87_du%C5%BCym_kosztem_(2160p_30fps_VP9_LQ-96kbit_AAC)-00.00.38.268.png",
+      "author": "ZMASLO",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "g_nv_rtx5070": {
+    "status": "hit",
+    "file": "g_nv_rtx5070.png",
+    "entry": {
+      "url": "/images/components/g_nv_rtx5070.png",
+      "thumbUrl": "/images/components/g_nv_rtx5070.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RTX5070Ti%E9%A6%96%E5%8F%91%E8%AF%84%E6%B5%8B%EF%BC%9A%E6%80%A7%E8%83%BD%E7%BA%A6%E7%AD%89%E4%BA%8E4080S_(2160p_60fps_VP9-128kbit_AAC)-00.00.37.559.png",
+      "author": "https://www.youtube.com/@geekerwan1024 极客湾Geekerwan]",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "g_nv_rtx5060": {
+    "status": "hit",
+    "file": "g_nv_rtx5060.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_rtx5060.jpg",
+      "thumbUrl": "/images/components/g_nv_rtx5060.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nvidia_GeForce_RTX_5060_Ti_16GB,_PNY_Overclocked_Dual_Fan,_front.jpg",
+      "author": "FreeMediaKid!",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 427,
+      "kind": "photo"
+    }
+  },
+  "g_nv_rtx5070ti": {
+    "status": "hit",
+    "file": "g_nv_rtx5070ti.png",
+    "entry": {
+      "url": "/images/components/g_nv_rtx5070ti.png",
+      "thumbUrl": "/images/components/g_nv_rtx5070ti.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RTX5070Ti%E9%A6%96%E5%8F%91%E8%AF%84%E6%B5%8B%EF%BC%9A%E6%80%A7%E8%83%BD%E7%BA%A6%E7%AD%89%E4%BA%8E4080S_(2160p_60fps_VP9-128kbit_AAC)-00.00.37.559.png",
+      "author": "https://www.youtube.com/@geekerwan1024 极客湾Geekerwan]",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "g_ati_7000": {
+    "status": "miss"
+  },
+  "g_nv_b200": {
+    "status": "miss"
+  },
+  "g_arc_a580": {
+    "status": "miss"
+  },
+  "g_arc_b580": {
+    "status": "hit",
+    "file": "g_arc_b580.jpg",
+    "entry": {
+      "url": "/images/components/g_arc_b580.jpg",
+      "thumbUrl": "/images/components/g_arc_b580.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_Arc_Battlemage_B580_Limited_Edition.jpg",
+      "author": "Jiahwang",
+      "license": "CC0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_nv_rtx4070": {
+    "status": "hit",
+    "file": "g_nv_rtx4070.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_rtx4070.jpg",
+      "thumbUrl": "/images/components/g_nv_rtx4070.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:2023_Gigabyte_GeForce_RTX_4070_Aero_OC_12GB_(3).jpg",
+      "author": "Jacek Halicki",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 398,
+      "kind": "photo"
+    }
+  },
+  "g_nv_rtx4070ti": {
+    "status": "miss"
+  },
+  "g_nv_rtx4080": {
+    "status": "miss"
+  },
+  "g_nv_rtx5060ti": {
+    "status": "hit",
+    "file": "g_nv_rtx5060ti.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_rtx5060ti.jpg",
+      "thumbUrl": "/images/components/g_nv_rtx5060ti.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nvidia_GeForce_RTX_5060_Ti_16GB,_PNY_Overclocked_Dual_Fan,_front.jpg",
+      "author": "FreeMediaKid!",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 427,
+      "kind": "photo"
+    }
+  },
+  "g_amd_rx7600": {
+    "status": "miss"
+  },
+  "g_nv_rtx5080": {
+    "status": "miss"
+  },
+  "c_5700x3d": {
+    "status": "miss"
+  },
+  "c_7900x": {
+    "status": "hit",
+    "file": "c_7900x.jpg",
+    "entry": {
+      "url": "/images/components/c_7900x.jpg",
+      "thumbUrl": "/images/components/c_7900x.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_7900X.jpg",
+      "author": "CristoCalis",
+      "license": "CC BY-SA 4.0",
+      "width": 640,
+      "height": 640,
+      "kind": "photo"
+    }
+  },
+  "c_9900x": {
+    "status": "miss"
+  },
+  "c_9950x3d": {
+    "status": "miss"
+  },
+  "c_12600k": {
+    "status": "miss"
+  },
+  "c_13400f": {
+    "status": "miss"
+  },
+  "c_14600k": {
+    "status": "hit",
+    "file": "c_14600k.png",
+    "entry": {
+      "url": "/images/components/c_14600k.png",
+      "thumbUrl": "/images/components/c_14600k.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_Core_i5-14600K_(INVADERPC)_01.png",
+      "author": "INVADER PC",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "c_14700k": {
+    "status": "hit",
+    "file": "c_14700k.png",
+    "entry": {
+      "url": "/images/components/c_14700k.png",
+      "thumbUrl": "/images/components/c_14700k.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_Core_i7-14700K_(INVADERPC).png",
+      "author": "INVADER PC",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 360,
+      "kind": "photo"
+    }
+  },
+  "c_245k": {
+    "status": "miss"
+  },
+  "c_265k": {
+    "status": "hit",
+    "file": "c_265k.png",
+    "entry": {
+      "url": "/images/components/c_265k.png",
+      "thumbUrl": "/images/components/c_265k.png",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:INTEL_CORE_ULTRA_7_265K_-_DOVRESTI_COMPRARLO%C2%BF_%F0%9F%91%80_(1920p_25fps_VP9_LQ-128kbit_AAC)-00.07.34.800.png",
+      "author": "MoreThanTech",
+      "license": "CC BY 3.0",
+      "width": 640,
+      "height": 320,
+      "kind": "photo"
+    }
+  },
+  "g_arc_a380": {
+    "status": "miss"
+  },
+  "g_arc_a750": {
+    "status": "miss"
+  },
+  "g_arc_a770": {
+    "status": "hit",
+    "file": "g_arc_a770.jpg",
+    "entry": {
+      "url": "/images/components/g_arc_a770.jpg",
+      "thumbUrl": "/images/components/g_arc_a770.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_Arc_A770_with_Rubik%27s_Cube-2.jpg",
+      "author": "Telaneo",
+      "license": "CC0",
+      "width": 640,
+      "height": 480,
+      "kind": "photo"
+    }
+  },
+  "g_arc_b570": {
+    "status": "miss"
+  },
+  "g_amd_rx7700xt": {
+    "status": "miss"
+  },
+  "g_amd_rx7900xt": {
+    "status": "hit",
+    "file": "g_amd_rx7900xt.jpg",
+    "entry": {
+      "url": "/images/components/g_amd_rx7900xt.jpg",
+      "thumbUrl": "/images/components/g_amd_rx7900xt.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:7900XT_1.jpg",
+      "author": "Shinobara",
+      "license": "CC BY 4.0",
+      "width": 640,
+      "height": 843,
+      "kind": "manual"
+    }
+  },
+  "g_amd_rx6600": {
+    "status": "miss"
+  },
+  "g_amd_rx6650xt": {
+    "status": "miss"
+  },
+  "g_amd_rx6750xt": {
+    "status": "miss"
+  },
+  "g_nv_gtx1660ti": {
+    "status": "hit",
+    "file": "g_nv_gtx1660ti.jpg",
+    "entry": {
+      "url": "/images/components/g_nv_gtx1660ti.jpg",
+      "thumbUrl": "/images/components/g_nv_gtx1660ti.jpg",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Gigabyte_GTX_1660_Ti_graphics_card_(51993493927).jpg",
+      "author": "Chi Ho Chan from Hong Kong",
+      "license": "CC BY 2.0",
+      "width": 640,
+      "height": 427,
+      "kind": "photo"
+    }
+  }
+}

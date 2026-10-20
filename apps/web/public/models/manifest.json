@@ -1,0 +1,11 @@
+[
+  {
+    "slug": "g_5090",
+    "lod": "lod_2_low",
+    "url": "/models/g_5090.lod_2_low.glb",
+    "bytes": 1244,
+    "polygons": 12,
+    "draco": true,
+    "textureUrl": "/models/g_5090.lod_2_low.ktx2"
+  }
+]

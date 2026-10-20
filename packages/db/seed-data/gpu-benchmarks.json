@@ -1,0 +1,1127 @@
+[
+  {
+    "slug": "g_5090",
+    "raster": {
+      "p1080": 203.6,
+      "p1440": 175.5,
+      "p2160": 113.4
+    },
+    "rt": {
+      "p1080": 108.3,
+      "p1440": 93.4,
+      "p2160": 60.3
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_4090",
+    "raster": {
+      "p1080": 181,
+      "p1440": 150.9,
+      "p2160": 94.5
+    },
+    "rt": {
+      "p1080": 90.5,
+      "p1440": 75.5,
+      "p2160": 47.3
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx5080",
+    "raster": {
+      "p1080": 161.9,
+      "p1440": 131.6,
+      "p2160": 80.4
+    },
+    "rt": {
+      "p1080": 86.1,
+      "p1440": 70,
+      "p2160": 42.8
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_4080s",
+    "raster": {
+      "p1080": 152.9,
+      "p1440": 122.9,
+      "p2160": 74.2
+    },
+    "rt": {
+      "p1080": 76.5,
+      "p1440": 61.5,
+      "p2160": 37.1
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_7900xtx",
+    "raster": {
+      "p1080": 151,
+      "p1440": 121.1,
+      "p2160": 73
+    },
+    "rt": {
+      "p1080": 63.4,
+      "p1440": 50.9,
+      "p2160": 30.7
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx5070ti",
+    "raster": {
+      "p1080": 149.1,
+      "p1440": 119.3,
+      "p2160": 71.7
+    },
+    "rt": {
+      "p1080": 79.3,
+      "p1440": 63.5,
+      "p2160": 38.1
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx4080",
+    "raster": {
+      "p1080": 147.3,
+      "p1440": 117.6,
+      "p2160": 70.5
+    },
+    "rt": {
+      "p1080": 73.7,
+      "p1440": 58.8,
+      "p2160": 35.3
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx9070xt",
+    "raster": {
+      "p1080": 145.4,
+      "p1440": 115.8,
+      "p2160": 69.3
+    },
+    "rt": {
+      "p1080": 72.7,
+      "p1440": 57.9,
+      "p2160": 34.7
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_4070ts",
+    "raster": {
+      "p1080": 135.9,
+      "p1440": 107.1,
+      "p2160": 63.3
+    },
+    "rt": {
+      "p1080": 68,
+      "p1440": 53.6,
+      "p2160": 31.7
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx7900xt",
+    "raster": {
+      "p1080": 135.9,
+      "p1440": 107.1,
+      "p2160": 63.3
+    },
+    "rt": {
+      "p1080": 57.1,
+      "p1440": 45,
+      "p2160": 26.6
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx9070",
+    "raster": {
+      "p1080": 131.9,
+      "p1440": 103.5,
+      "p2160": 60.9
+    },
+    "rt": {
+      "p1080": 66,
+      "p1440": 51.8,
+      "p2160": 30.5
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx3090ti",
+    "raster": {
+      "p1080": 128,
+      "p1440": 100,
+      "p2160": 58.6
+    },
+    "rt": {
+      "p1080": 57.6,
+      "p1440": 45,
+      "p2160": 26.4
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx4070ti",
+    "raster": {
+      "p1080": 126.1,
+      "p1440": 98.3,
+      "p2160": 57.4
+    },
+    "rt": {
+      "p1080": 63.1,
+      "p1440": 49.2,
+      "p2160": 28.7
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx5070",
+    "raster": {
+      "p1080": 124.1,
+      "p1440": 96.5,
+      "p2160": 56.3
+    },
+    "rt": {
+      "p1080": 66,
+      "p1440": 51.3,
+      "p2160": 30
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_4070s",
+    "raster": {
+      "p1080": 120.1,
+      "p1440": 93,
+      "p2160": 54
+    },
+    "rt": {
+      "p1080": 60.1,
+      "p1440": 46.5,
+      "p2160": 27
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx3090",
+    "raster": {
+      "p1080": 118.2,
+      "p1440": 91.3,
+      "p2160": 52.8
+    },
+    "rt": {
+      "p1080": 53.2,
+      "p1440": 41.1,
+      "p2160": 23.8
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx6950xt",
+    "raster": {
+      "p1080": 116.1,
+      "p1440": 89.5,
+      "p2160": 51.7
+    },
+    "rt": {
+      "p1080": 44.1,
+      "p1440": 34,
+      "p2160": 19.6
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_3080ti",
+    "raster": {
+      "p1080": 116.1,
+      "p1440": 89.5,
+      "p2160": 51.7
+    },
+    "rt": {
+      "p1080": 52.2,
+      "p1440": 40.3,
+      "p2160": 23.3
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx7900gre",
+    "raster": {
+      "p1080": 112,
+      "p1440": 86,
+      "p2160": 49.4
+    },
+    "rt": {
+      "p1080": 47,
+      "p1440": 36.1,
+      "p2160": 20.7
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_7800xt",
+    "raster": {
+      "p1080": 107.9,
+      "p1440": 82.5,
+      "p2160": 47.2
+    },
+    "rt": {
+      "p1080": 45.3,
+      "p1440": 34.7,
+      "p2160": 19.8
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx3080",
+    "raster": {
+      "p1080": 107.9,
+      "p1440": 82.5,
+      "p2160": 47.2
+    },
+    "rt": {
+      "p1080": 48.6,
+      "p1440": 37.1,
+      "p2160": 21.2
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx4070",
+    "raster": {
+      "p1080": 105.8,
+      "p1440": 80.7,
+      "p2160": 46
+    },
+    "rt": {
+      "p1080": 52.9,
+      "p1440": 40.4,
+      "p2160": 23
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx6800xt",
+    "raster": {
+      "p1080": 101.7,
+      "p1440": 77.2,
+      "p2160": 43.8
+    },
+    "rt": {
+      "p1080": 38.6,
+      "p1440": 29.3,
+      "p2160": 16.6
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx5060ti",
+    "raster": {
+      "p1080": 97.5,
+      "p1440": 73.7,
+      "p2160": 41.6
+    },
+    "rt": {
+      "p1080": 51.9,
+      "p1440": 39.2,
+      "p2160": 22.1
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx7700xt",
+    "raster": {
+      "p1080": 93.2,
+      "p1440": 70.2,
+      "p2160": 39.5
+    },
+    "rt": {
+      "p1080": 39.1,
+      "p1440": 29.5,
+      "p2160": 16.6
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx9060xt",
+    "raster": {
+      "p1080": 91,
+      "p1440": 68.4,
+      "p2160": 38.3
+    },
+    "rt": {
+      "p1080": 45.5,
+      "p1440": 34.2,
+      "p2160": 19.2
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx3070ti",
+    "raster": {
+      "p1080": 89,
+      "p1440": 66.7,
+      "p2160": 37.3
+    },
+    "rt": {
+      "p1080": 40.1,
+      "p1440": 30,
+      "p2160": 16.8
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_4060ti",
+    "raster": {
+      "p1080": 80.3,
+      "p1440": 59.7,
+      "p2160": 33
+    },
+    "rt": {
+      "p1080": 40.2,
+      "p1440": 29.9,
+      "p2160": 16.5
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx3070",
+    "raster": {
+      "p1080": 78,
+      "p1440": 57.9,
+      "p2160": 32
+    },
+    "rt": {
+      "p1080": 35.1,
+      "p1440": 26.1,
+      "p2160": 14.4
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx5060",
+    "raster": {
+      "p1080": 78,
+      "p1440": 57.9,
+      "p2160": 32
+    },
+    "rt": {
+      "p1080": 41.5,
+      "p1440": 30.8,
+      "p2160": 17
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx6750xt",
+    "raster": {
+      "p1080": 78,
+      "p1440": 57.9,
+      "p2160": 32
+    },
+    "rt": {
+      "p1080": 29.6,
+      "p1440": 22,
+      "p2160": 12.2
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_2080ti",
+    "raster": {
+      "p1080": 78,
+      "p1440": 57.9,
+      "p2160": 32
+    },
+    "rt": {
+      "p1080": 31.2,
+      "p1440": 23.2,
+      "p2160": 12.8
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_6700xt",
+    "raster": {
+      "p1080": 73.6,
+      "p1440": 54.4,
+      "p2160": 29.9
+    },
+    "rt": {
+      "p1080": 28,
+      "p1440": 20.7,
+      "p2160": 11.4
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx3060ti",
+    "raster": {
+      "p1080": 71.5,
+      "p1440": 52.7,
+      "p2160": 28.9
+    },
+    "rt": {
+      "p1080": 32.2,
+      "p1440": 23.7,
+      "p2160": 13
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx7600xt",
+    "raster": {
+      "p1080": 69.2,
+      "p1440": 50.9,
+      "p2160": 27.8
+    },
+    "rt": {
+      "p1080": 29.1,
+      "p1440": 21.4,
+      "p2160": 11.7
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx2080s",
+    "raster": {
+      "p1080": 66.9,
+      "p1440": 49.1,
+      "p2160": 26.8
+    },
+    "rt": {
+      "p1080": 26.8,
+      "p1440": 19.6,
+      "p2160": 10.7
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_arc_b580",
+    "raster": {
+      "p1080": 66.9,
+      "p1440": 49.1,
+      "p2160": 26.8
+    },
+    "rt": {
+      "p1080": 30.1,
+      "p1440": 22.1,
+      "p2160": 12.1
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_4060",
+    "raster": {
+      "p1080": 64.7,
+      "p1440": 47.4,
+      "p2160": 25.8
+    },
+    "rt": {
+      "p1080": 32.4,
+      "p1440": 23.7,
+      "p2160": 12.9
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_arc_a770",
+    "raster": {
+      "p1080": 62.3,
+      "p1440": 45.6,
+      "p2160": 24.7
+    },
+    "rt": {
+      "p1080": 28,
+      "p1440": 20.5,
+      "p2160": 11.1
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_arc_b570",
+    "raster": {
+      "p1080": 60.1,
+      "p1440": 43.9,
+      "p2160": 23.7
+    },
+    "rt": {
+      "p1080": 27,
+      "p1440": 19.8,
+      "p2160": 10.7
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx2070s",
+    "raster": {
+      "p1080": 60.1,
+      "p1440": 43.9,
+      "p2160": 23.7
+    },
+    "rt": {
+      "p1080": 24,
+      "p1440": 17.6,
+      "p2160": 9.5
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx7600",
+    "raster": {
+      "p1080": 57.8,
+      "p1440": 42.1,
+      "p2160": 22.7
+    },
+    "rt": {
+      "p1080": 24.3,
+      "p1440": 17.7,
+      "p2160": 9.5
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_3060",
+    "raster": {
+      "p1080": 57.8,
+      "p1440": 42.1,
+      "p2160": 22.7
+    },
+    "rt": {
+      "p1080": 26,
+      "p1440": 18.9,
+      "p2160": 10.2
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_arc_a750",
+    "raster": {
+      "p1080": 55.6,
+      "p1440": 40.4,
+      "p2160": 21.7
+    },
+    "rt": {
+      "p1080": 25,
+      "p1440": 18.2,
+      "p2160": 9.8
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx5700xt",
+    "raster": {
+      "p1080": 55.6,
+      "p1440": 40.4,
+      "p2160": 21.7
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx6650xt",
+    "raster": {
+      "p1080": 53.2,
+      "p1440": 38.6,
+      "p2160": 20.7
+    },
+    "rt": {
+      "p1080": 20.2,
+      "p1440": 14.7,
+      "p2160": 7.9
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_1080ti",
+    "raster": {
+      "p1080": 53.2,
+      "p1440": 38.6,
+      "p2160": 20.7
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx2060s",
+    "raster": {
+      "p1080": 51,
+      "p1440": 36.9,
+      "p2160": 19.8
+    },
+    "rt": {
+      "p1080": 20.4,
+      "p1440": 14.8,
+      "p2160": 7.9
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_arc_a580",
+    "raster": {
+      "p1080": 48.6,
+      "p1440": 35.1,
+      "p2160": 18.7
+    },
+    "rt": {
+      "p1080": 21.9,
+      "p1440": 15.8,
+      "p2160": 8.4
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx6600",
+    "raster": {
+      "p1080": 46.2,
+      "p1440": 33.3,
+      "p2160": 17.7
+    },
+    "rt": {
+      "p1080": 17.6,
+      "p1440": 12.7,
+      "p2160": 6.7
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx5600xt",
+    "raster": {
+      "p1080": 43.9,
+      "p1440": 31.6,
+      "p2160": 16.8
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_gtx1080",
+    "raster": {
+      "p1080": 41.5,
+      "p1440": 29.8,
+      "p2160": 15.8
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_rtx2060",
+    "raster": {
+      "p1080": 41.5,
+      "p1440": 29.8,
+      "p2160": 15.8
+    },
+    "rt": {
+      "p1080": 16.6,
+      "p1440": 11.9,
+      "p2160": 6.3
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_3050",
+    "raster": {
+      "p1080": 41.5,
+      "p1440": 29.8,
+      "p2160": 15.8
+    },
+    "rt": {
+      "p1080": 18.7,
+      "p1440": 13.4,
+      "p2160": 7.1
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_vega64",
+    "raster": {
+      "p1080": 39.2,
+      "p1440": 28.1,
+      "p2160": 14.8
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_gtx1070ti",
+    "raster": {
+      "p1080": 38,
+      "p1440": 27.2,
+      "p2160": 14.4
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_gtx1660s",
+    "raster": {
+      "p1080": 34.5,
+      "p1440": 24.6,
+      "p2160": 12.9
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_gtx1660ti",
+    "raster": {
+      "p1080": 34.5,
+      "p1440": 24.6,
+      "p2160": 12.9
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_gtx1070",
+    "raster": {
+      "p1080": 34.5,
+      "p1440": 24.6,
+      "p2160": 12.9
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_vega56",
+    "raster": {
+      "p1080": 34.5,
+      "p1440": 24.6,
+      "p2160": 12.9
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_arc_a380",
+    "raster": {
+      "p1080": 27.2,
+      "p1440": 19.3,
+      "p2160": 10.1
+    },
+    "rt": {
+      "p1080": 12.2,
+      "p1440": 8.7,
+      "p2160": 4.5
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_rx580",
+    "raster": {
+      "p1080": 27.2,
+      "p1440": 19.3,
+      "p2160": 10.1
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx480",
+    "raster": {
+      "p1080": 27.2,
+      "p1440": 19.3,
+      "p2160": 10.1
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_rx590",
+    "raster": {
+      "p1080": 29.7,
+      "p1440": 21.1,
+      "p2160": 11
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_gtx1060_6g",
+    "raster": {
+      "p1080": 24.9,
+      "p1440": 17.6,
+      "p2160": 9.2
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_gtx1650",
+    "raster": {
+      "p1080": 19.8,
+      "p1440": 14,
+      "p2160": 7.2
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_gtx1050ti",
+    "raster": {
+      "p1080": 14.9,
+      "p1440": 10.5,
+      "p2160": 5.4
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_titanxp",
+    "raster": {
+      "p1080": 46.2,
+      "p1440": 33.3,
+      "p2160": 17.7
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_titanv",
+    "raster": {
+      "p1080": 48.6,
+      "p1440": 35.1,
+      "p2160": 18.7
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_vii",
+    "raster": {
+      "p1080": 51,
+      "p1440": 36.9,
+      "p2160": 19.8
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_gtx980ti",
+    "raster": {
+      "p1080": 29.7,
+      "p1440": 21.1,
+      "p2160": 11
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_furyx",
+    "raster": {
+      "p1080": 27.2,
+      "p1440": 19.3,
+      "p2160": 10.1
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_gtx980",
+    "raster": {
+      "p1080": 24.9,
+      "p1440": 17.6,
+      "p2160": 9.2
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_nv_gtx970",
+    "raster": {
+      "p1080": 22.4,
+      "p1440": 15.8,
+      "p2160": 8.2
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  },
+  {
+    "slug": "g_amd_r9390x",
+    "raster": {
+      "p1080": 24.9,
+      "p1440": 17.6,
+      "p2160": 9.2
+    },
+    "rt": {
+      "p1080": null,
+      "p1440": null,
+      "p2160": null
+    },
+    "source": "https://www.techpowerup.com/review/nvidia-geforce-rtx-5090-founders-edition/",
+    "note": "1440p raster alineado al ranking relativo de TechPowerUp, ComputerBase y Tom's Hardware (RTX 5090 = 175.5 fps). 1080p, 4K y ray tracing usan el factor de generación de esa misma escala."
+  }
+]

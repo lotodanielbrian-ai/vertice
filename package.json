@@ -1,0 +1,28 @@
+{
+  "name": "pc-builder-3d",
+  "private": true,
+  "packageManager": "pnpm@10.15.1",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev:api": "corepack pnpm --filter @pc/api dev",
+    "dev:web": "corepack pnpm --filter @pc/web dev",
+    "test": "corepack pnpm --filter @pc/engine test",
+    "db:extract": "node packages/db/scripts/extract-prototype.mjs",
+    "db:migrate": "corepack pnpm --filter @pc/db migrate",
+    "db:seed": "corepack pnpm --filter @pc/db seed",
+    "db:generate": "corepack pnpm --filter @pc/db generate",
+    "assets:compress": "corepack pnpm --filter @pc/asset-pipeline compress",
+    "images:fetch": "corepack pnpm --filter @pc/image-fetcher fetch"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1"
+  }
+}

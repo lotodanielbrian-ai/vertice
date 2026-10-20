@@ -1,0 +1,15 @@
+[
+  "VRAM sin tipo: \"1GB (2x512MB)\"",
+  "VRAM sin tipo: \"4GB (2x2GB)\"",
+  "VRAM sin tipo: \"6GB (2x3GB)\"",
+  "Bus no reconocido: \"AGP / PCIe\"",
+  "VRAM sin tipo: \"1GB (2x512MB)\"",
+  "VRAM sin tipo: \"1GB (2x512MB)\"",
+  "VRAM sin tipo: \"3GB (2x1.5GB)\"",
+  "VRAM sin tipo: \"4GB (2x2GB)\"",
+  "VRAM sin tipo: \"12GB (2x6GB)\"",
+  "GPUs del prototipo (139): bus_lanes, conectores de alimentación, relojes, litografía, alto y DirectX quedan NULL. No se inventan.",
+  "Preset inconsistente \"🌪️ 2010 El Volcán Fermi (GeForce GTX 480 \"Thermi\")\": CPU LGA1155 con placa LGA775 (mb_retro775).",
+  "Preset inconsistente \"🌪️ 2010 El Volcán Fermi (GeForce GTX 480 \"Thermi\")\": RAM DDR4 con placa DDR2 (mb_retro775).",
+  "Preset inconsistente \"🔴 2002 La Revolución DirectX 9 (ATI Radeon 9700 PRO)\": CPU Socket 939 con placa LGA775 (mb_retro775)."
+]

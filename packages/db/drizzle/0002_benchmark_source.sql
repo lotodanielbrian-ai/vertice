@@ -1,0 +1,1 @@
+ALTER TABLE "hardware_benchmark_scores" ADD COLUMN "source_url" text;
