@@ -53,7 +53,7 @@ export function HeroStage({
         <div className="relative z-10 space-y-5">
           <div className="flex items-center gap-3">
             {logo && <BrandLogo src={logo} alt={brand} className="h-14 w-36" />}
-            <p className="text-[11px] font-black uppercase tracking-[0.28em] text-slate-400">Vértice</p>
+            <p className="text-[11px] font-black uppercase tracking-[0.28em] text-slate-400">PC Gamers Argentina</p>
           </div>
           <div>
             <h2 className="text-4xl font-black uppercase leading-none tracking-tight text-white sm:text-6xl">Showroom</h2>

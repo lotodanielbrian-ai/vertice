@@ -6,7 +6,7 @@ import { tierClass } from '../../lib/format'
 import { fetchMarket, formatArs, matchCatalogCpu, matchCatalogGpu } from '../../lib/market'
 import { BUILDER_STEPS, useBuildStore, type BuilderStep, type MarketSlot } from '../../store'
 import { BottleneckHeatmap, IssuePanel, PowerCurve, UpgradeList } from '../analysis/AnalysisPanels'
-import { capacityGb, coolerWatts, coreCount, cpuLoadWatts, driveKind, formFactors, includesStockCooler, marketHints, matchesCase, motherSlots, nvmeGen, offerFit, psuCert, ramGen, ramModules, socketsIn, towerKind, videoMemory, wattsOf, type CaseFilter, type Fit, type FitContext, type PsuCert } from './fit'
+import { capacityGb, coolerWatts, coreCount, cpuLoadWatts, cpuSocketOf, driveKind, formFactors, includesStockCooler, marketHints, matchesCase, motherSlots, nvmeGen, offerFit, psuCert, ramGen, ramGensOf, ramModules, socketsIn, towerKind, videoMemory, wattsOf, type CaseFilter, type Fit, type FitContext, type PsuCert } from './fit'
 import { SlotIcon } from './SlotIcon'
 
 const COPY: Record<BuilderStep, { title: string; help: string }> = {
@@ -270,7 +270,16 @@ export function BuilderPage({
     step === 'gpu' && gddrFilter !== 'all' ? gddrFilter : '',
     step === 'case' ? caseQuery : '',
   ].filter(Boolean).join(' ')
-  const hints = marketHints(step, cpu, offers.motherboard?.name ?? null, deferred).map((hint) => [hint, filterQuery].filter(Boolean).join(' '))
+  const cpuSocket = cpuSocketOf(cpu, cpuOffer?.name ?? null)
+  const allowedRam = ramGensOf(cpu, cpuSocket)
+  const platformStep = step === 'motherboard' || step === 'ram' || step === 'cooler'
+  const platformMissing = Boolean(cpuOffer) && (
+    ((step === 'motherboard' || step === 'cooler') && !cpuSocket) ||
+    (step === 'ram' && allowedRam.length === 0)
+  )
+  const hints = platformMissing
+    ? []
+    : marketHints(step, cpuSocket, allowedRam, offers.motherboard?.name ?? null, deferred).map((hint) => [hint, filterQuery].filter(Boolean).join(' '))
   const marketResults = useQueries({
     queries: hints.map((hint) => ({
       queryKey: ['market', step, hint, page],
@@ -288,7 +297,7 @@ export function BuilderPage({
     })
   }, [marketResults])
   const marketLoading = marketResults.some((result) => result.isLoading)
-  const marketError = marketResults.every((result) => result.isError)
+  const marketError = marketResults.length > 0 && marketResults.every((result) => result.isError)
   const nextPage = marketResults.map((result) => result.data?.nextPage).find((value) => value != null) ?? null
   const loadWatts = cpuLoadWatts(cpu)
   const slots = motherSlots(offers.motherboard?.name ?? null)
@@ -296,12 +305,14 @@ export function BuilderPage({
 
   const fitContext: FitContext = {
     cpu,
+    cpuSocket,
+    allowedRam,
     motherName: offers.motherboard?.name ?? null,
     caseName: offers.case?.name ?? null,
     recommendedWatts: analysis.power.recommendedPsuWatts,
   }
 
-  const constrained = (step === 'motherboard' || step === 'ram') && Boolean(cpu) && onlyCompatible
+  const constrained = onlyCompatible && platformStep && !platformMissing
   const offerCards = marketOffers
     .map((offer) => {
       const fit = offerFit(offer, step, fitContext)
@@ -583,16 +594,26 @@ export function BuilderPage({
             Para este armado se sugiere una fuente de al menos {analysis.power.recommendedPsuWatts} W.
           </p>
         )}
+        {cpuOffer && cpuSocket && platformStep && (
+          <p className="rounded-xl border border-cyan-400/30 bg-cyan-500/10 p-3 text-sm text-cyan-100">
+            Para este procesador: {cpuSocket}{allowedRam.length > 0 ? ` · ${allowedRam.map((gen) => gen.toUpperCase()).join(' / ')}` : ''}.
+          </p>
+        )}
+        {platformMissing && (
+          <p className="rounded-xl border border-amber-400/40 bg-amber-500/10 p-3 text-sm text-amber-100">
+            No se pudo identificar el socket de este procesador. No se listan piezas de otra plataforma.
+          </p>
+        )}
         {marketLoading && <p className="text-sm text-slate-400">Buscando ofertas en las tiendas…</p>}
         {marketError && (
           <p className="rounded-xl border border-rose-500/40 bg-rose-500/10 p-3 text-sm text-rose-100">No se pudieron leer las ofertas de HardGamers.</p>
         )}
         {stockAlert && (
           <p className="rounded-xl border border-amber-400/40 bg-amber-500/10 p-3 text-sm text-amber-100">
-            Ya no hay stock de {step === 'motherboard' ? 'mothers' : 'memoria'} compatibles con este procesador.
+            Ya no hay stock de {step === 'motherboard' ? 'mothers' : step === 'cooler' ? 'coolers' : 'memoria'} compatibles con este procesador.
           </p>
         )}
-        {!marketLoading && !marketError && !stockAlert && offerCards.length === 0 && (
+        {!platformMissing && !marketLoading && !marketError && !stockAlert && offerCards.length === 0 && (
           <p className="text-sm text-slate-400">No hay ofertas con ese criterio.</p>
         )}
 

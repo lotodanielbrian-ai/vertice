@@ -1,9 +1,11 @@
 import { GAMING_TIER_LABEL, rankGaming, type Award } from '@pc/engine'
-import { TIERS, brandOf, type CatalogItem, type ComponentType, type Tier } from '@pc/shared'
+import { TIERS, BRAND_THEME, brandOf, type CatalogItem, type ComponentType, type Tier } from '@pc/shared'
 import { useMemo, useState } from 'react'
 import { BrandLogo } from '../../components/BrandLogo'
+import { YourGpuPill } from '../../components/YourGpuPill'
 import { ComponentImage } from '../../components/ComponentImage'
 import { markLogo } from '../../lib/brands'
+import { useInstalledGpu } from '../../lib/localGpu'
 import { useNavStore } from '../../nav'
 
 const TYPES: ComponentType[] = ['gpu', 'cpu', 'motherboard', 'ram', 'psu', 'cooler', 'storage', 'case']
@@ -16,6 +18,19 @@ const TIER_BAND: Record<Tier, string> = {
   D: '#ef4444',
   E: '#64748b',
   F: '#334155',
+}
+
+function BrandLegend() {
+  return (
+    <ul className="flex flex-wrap gap-3 text-[10px] font-black uppercase">
+      {(['NVIDIA', 'AMD', 'Intel'] as const).map((brand) => (
+        <li key={brand} className="flex items-center gap-1.5" style={{ color: BRAND_THEME[brand].hex }}>
+          <span className="h-2 w-2 rounded-full" style={{ background: BRAND_THEME[brand].hex }} />
+          {brand}
+        </li>
+      ))}
+    </ul>
+  )
 }
 
 function Awards({ awards }: { awards: Award[] }) {
@@ -37,6 +52,8 @@ export function TierListPage({ items, ranks }: { items: CatalogItem[]; ranks: Ma
   const [family, setFamily] = useState<'gpu' | 'cpu'>('gpu')
   const [era, setEra] = useState('all')
   const openPart = useNavStore((state) => state.openPart)
+  const installed = useInstalledGpu(items)
+  const yours = installed?.item?.slug ?? null
   const ranking = useMemo(() => rankGaming(items, family), [family, items])
 
   const filtered = items.filter((item) => item.type === type).filter((item) => {
@@ -64,6 +81,7 @@ export function TierListPage({ items, ranks }: { items: CatalogItem[]; ranks: Ma
               </button>
             ))}
           </div>
+          <BrandLegend />
           <div className="space-y-3">
             {TIERS.map((tier) => {
               const row = ranking.parts.filter((part) => part.tier === tier)
@@ -76,18 +94,21 @@ export function TierListPage({ items, ranks }: { items: CatalogItem[]; ranks: Ma
                   {row.length === 0 ? (
                     <p className="px-4 py-3 text-xs text-slate-600">Sin piezas en este tier.</p>
                   ) : (
-                    <ul className="flex gap-2 overflow-x-auto p-3 custom-scrollbar">
+                    <ul className="flex min-w-0 gap-2 overflow-x-auto p-3 custom-scrollbar">
                       {row.map((part) => {
                         const logo = markLogo(brandOf(part.item))
+                        const brand = brandOf(part.item)
+                        const hex = brand ? BRAND_THEME[brand].hex : '#334155'
+                        const yoursCard = part.item.slug === yours
                         return (
-                          <li key={part.item.slug}>
-                            <button type="button" onClick={() => openPart(part.item.slug, family)} className="w-40 rounded-xl bg-slate-950/70 p-2 text-left">
-                              <span className="flex items-center justify-between">
+                          <li key={part.item.slug} className="shrink-0">
+                            <button type="button" onClick={() => openPart(part.item.slug, family)} className="w-44 rounded-xl border-2 bg-slate-950/70 p-2 text-left" style={yoursCard ? { borderColor: hex, boxShadow: `0 0 0 2px #020617, 0 0 0 4px ${hex}` } : { borderColor: hex }}>
+                              <span className="flex items-center justify-between gap-1">
                                 <span className="text-[10px] font-black text-slate-400">#{part.position}</span>
-                                {logo && <BrandLogo src={logo} alt={part.item.manufacturer} className="h-5 w-8" />}
+                                {yoursCard ? <YourGpuPill hex={hex} /> : logo && <BrandLogo src={logo} alt={part.item.manufacturer} className="h-5 w-8" />}
                               </span>
                               <ComponentImage item={part.item} className="mt-1 h-16 w-full" />
-                              <p className="mt-1 text-[11px] font-bold leading-snug text-white">{part.item.name}</p>
+                              <p className="mt-1 line-clamp-2 text-[11px] font-bold leading-snug" style={{ color: hex }}>{part.item.name}</p>
                             </button>
                           </li>
                         )
@@ -116,6 +137,7 @@ export function TierListPage({ items, ranks }: { items: CatalogItem[]; ranks: Ma
               <option value="2019-2026">2019-2026</option>
             </select>
           </div>
+          <BrandLegend />
           <div className="space-y-3">
             {TIERS.map((tier) => {
               const row = filtered.filter((item) => (ranks.get(item.slug) ?? item.baseTier) === tier)
@@ -125,14 +147,20 @@ export function TierListPage({ items, ranks }: { items: CatalogItem[]; ranks: Ma
                   {row.length === 0 ? (
                     <p className="self-center text-xs text-slate-600">Sin piezas en este tier.</p>
                   ) : (
-                    <ul className="flex gap-2 overflow-x-auto pb-1 custom-scrollbar">
-                      {row.map((item) => (
-                        <li key={item.slug} className="w-44 shrink-0 rounded-xl bg-slate-950/70 p-2">
-                          <ComponentImage item={item} className="h-24 w-full" />
-                          <p className="mt-1 text-[11px] font-bold leading-snug text-white">{item.name}</p>
-                          <p className="text-[10px] text-slate-500">{item.releaseYear} · base {item.baseTier}</p>
-                        </li>
-                      ))}
+                    <ul className="flex min-w-0 flex-1 gap-2 overflow-x-auto pb-1 custom-scrollbar">
+                      {row.map((item) => {
+                        const brand = brandOf(item)
+                        const hex = brand ? BRAND_THEME[brand].hex : '#334155'
+                        const yoursCard = item.slug === yours
+                        return (
+                          <li key={item.slug} className="w-44 shrink-0 rounded-xl border-2 bg-slate-950/70 p-2" style={yoursCard ? { borderColor: hex, boxShadow: `0 0 0 2px #020617, 0 0 0 4px ${hex}` } : { borderColor: hex }}>
+                            {yoursCard && <YourGpuPill hex={hex} />}
+                            <ComponentImage item={item} className="h-24 w-full" />
+                            <p className="mt-1 line-clamp-2 text-[11px] font-bold leading-snug" style={{ color: hex }}>{item.name}</p>
+                            <p className="text-[10px] text-slate-500">{item.releaseYear} · base {item.baseTier}</p>
+                          </li>
+                        )
+                      })}
                     </ul>
                   )}
                 </section>

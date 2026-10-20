@@ -1,4 +1,4 @@
-# Vértice
+# PC Gamers Argentina
 
 Armado de PC en español: showroom, compatibilidad, tier y precios en pesos tomados de las tiendas que publica HardGamers. El enlace «Ver en …» abre el producto en esa tienda.
 

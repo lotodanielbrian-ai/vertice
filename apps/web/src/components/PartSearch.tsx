@@ -16,7 +16,7 @@ export function PartSearch({ items }: { items: CatalogItem[] }) {
   }, [items, query])
 
   return (
-    <div className="relative hidden min-w-48 flex-1 md:block">
+    <div className="relative hidden min-w-0 flex-1 md:block">
       <input
         value={query}
         onChange={(event) => { setQuery(event.target.value); setOpen(true) }}

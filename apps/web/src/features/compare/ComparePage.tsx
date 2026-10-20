@@ -1,6 +1,7 @@
 import { TIER_VALUE, type CatalogItem, type ComponentType, type Tier } from '@pc/shared'
 import { useEffect, useMemo, useState } from 'react'
 import { ComponentImage } from '../../components/ComponentImage'
+import { BenchmarkSources } from '../../components/BenchmarkSources'
 import { SearchSelect } from '../../components/SearchSelect'
 import { formatBus, formatConnectors } from '../../lib/format'
 import { useNavStore } from '../../nav'
@@ -158,7 +159,7 @@ export function ComparePage({ items, ranks }: { items: CatalogItem[]; ranks: Map
         <ComponentImage item={a} priority className="h-40 w-full" />
         <ComponentImage item={b} priority className="h-40 w-full" />
       </div>
-      <div className="glass-panel overflow-x-auto rounded-2xl custom-scrollbar">
+      <div className="glass-panel min-w-0 overflow-x-auto rounded-2xl custom-scrollbar">
         <table className="w-full min-w-[640px] text-sm">
           <thead className="bg-slate-900/80 text-left text-xs uppercase tracking-widest text-slate-400">
             <tr>
@@ -187,6 +188,7 @@ export function ComparePage({ items, ranks }: { items: CatalogItem[]; ranks: Map
           </tbody>
         </table>
       </div>
+      {(a.type === 'gpu' || b.type === 'gpu') && <BenchmarkSources source={a.benchmarks?.source ?? b.benchmarks?.source} />}
     </div>
   )
 }

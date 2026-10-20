@@ -27,7 +27,7 @@ export function BottleneckHeatmap({ analysis }: { analysis: Analysis }) {
     <section className="glass-panel rounded-2xl p-4">
       <h3 className="text-xs font-black uppercase tracking-widest text-slate-400">Matriz de cuello de botella</h3>
       <p className="mt-1 text-[11px] text-slate-500">Verde equilibrado, ámbar límite de CPU, rosa límite de GPU. El número es el desbalance.</p>
-      <div className="mt-3 overflow-x-auto custom-scrollbar">
+      <div className="mt-3 min-w-0 overflow-x-auto custom-scrollbar">
         <table className="w-full min-w-[520px] text-[10px]">
           <thead>
             <tr className="text-slate-500">

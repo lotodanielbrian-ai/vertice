@@ -33,9 +33,9 @@ function inEra(year: number, era: string) {
 function Awards({ awards }: { awards: Award[] }) {
   if (awards.length === 0) return null
   return (
-    <ul className="flex gap-2 overflow-x-auto pb-1 custom-scrollbar">
+    <ul className="flex min-w-0 gap-2 overflow-x-auto pb-1 custom-scrollbar">
       {awards.map((award) => (
-        <li key={award.id} className="min-w-44 rounded-xl border border-amber-400/30 bg-slate-950/70 p-3">
+        <li key={award.id} className="min-w-44 shrink-0 rounded-xl border border-amber-400/30 bg-slate-950/70 p-3">
           <p className="text-[10px] font-black uppercase tracking-widest text-amber-200">{award.label}</p>
           <p className="mt-1 text-xs font-bold text-white">{award.item.name}</p>
         </li>

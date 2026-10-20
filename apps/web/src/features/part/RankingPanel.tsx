@@ -1,6 +1,7 @@
-import { brandOf, type CatalogItem } from '@pc/shared'
-import { useMemo, useRef, useState, type KeyboardEvent } from 'react'
-import { useBuildStore } from '../../store'
+import { BRAND_THEME, brandOf, type CatalogItem } from '@pc/shared'
+import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react'
+import { YourGpuPill } from '../../components/YourGpuPill'
+import { useInstalledGpu } from '../../lib/localGpu'
 import { useNavStore } from '../../nav'
 
 type Resolution = 'p1080' | 'p1440' | 'p2160'
@@ -20,7 +21,10 @@ export function RankingPanel({
   onClose: () => void
 }) {
   const openPart = useNavStore((state) => state.openPart)
-  const yourGpu = useBuildStore((state) => state.selection.gpu)
+  const installedGpu = useInstalledGpu(items)
+  const installed = installedGpu
+    ? { renderer: installedGpu.renderer, slug: installedGpu.item?.slug ?? null, name: installedGpu.item?.name ?? null }
+    : null
   const [resolution, setResolution] = useState<Resolution>('p1440')
   const [mode, setMode] = useState<Mode>('raster')
   const [brand, setBrand] = useState<'all' | 'nvidia' | 'amd' | 'intel'>('all')
@@ -38,9 +42,21 @@ export function RankingPanel({
     return [...measured, ...missing]
   }, [brand, items, mode, order, resolution])
 
-  const current = items.find((item) => item.slug === currentSlug)
-  const baseline = (current && fpsOf(current, mode, resolution)) || fpsOf(rows[0] ?? items[0], mode, resolution) || 1
+  const installedItem = items.find((item) => item.slug === installed?.slug)
+  const installedFps = installedItem ? fpsOf(installedItem, mode, resolution) : null
+  const topMeasured = rows.find((item) => fpsOf(item, mode, resolution) != null)
+  const baseline = installedFps ?? fpsOf(topMeasured ?? rows[0], mode, resolution) ?? 1
+  const usingLocal = installedFps != null
+  const percents = rows.map((item) => {
+    const fps = fpsOf(item, mode, resolution)
+    return fps == null ? null : Math.round((fps / baseline) * 100)
+  })
+  const maxPercent = Math.max(100, ...percents.filter((value): value is number => value != null))
   const listRef = useRef<HTMLUListElement>(null)
+  useEffect(() => {
+    if (!installed?.slug) return
+    listRef.current?.querySelector(`[data-slug="${installed.slug}"]`)?.scrollIntoView({ block: 'center' })
+  }, [installed?.slug, rows])
   const onKeyDown = (event: KeyboardEvent) => {
     if (event.key === 'Escape') {
       onClose()
@@ -84,21 +100,41 @@ export function RankingPanel({
           {group('marca', brand, [['all', 'Todas'], ['nvidia', 'NVIDIA'], ['amd', 'AMD'], ['intel', 'Intel']])}
           {group('orden', order, [['perf', 'Rendimiento'], ['new', 'Más recientes'], ['old', 'Más antiguas']])}
         </div>
+        <p className="mt-3 text-[11px] leading-relaxed text-slate-400">
+          {installed == null
+            ? 'Leyendo la placa de esta PC…'
+            : usingLocal
+              ? `El 100% es la placa de esta PC: ${installed.name}. El navegador informa «${installed.renderer}».`
+              : installed.renderer
+                ? `No se pudo ubicar «${installed.renderer}» en el catálogo. El 100% vuelve a la placa más alta medida.`
+                : 'El navegador no informó la placa de esta PC. El 100% vuelve a la placa más alta medida.'}
+        </p>
         <ul ref={listRef} className="mt-4 space-y-1">
           {rows.map((item, index) => {
             const fps = fpsOf(item, mode, resolution)
-            const percent = fps != null ? Math.round((fps / baseline) * 100) : null
+            const percent = percents[index]
+            const brandName = brandOf(item)
+            const hex = brandName ? BRAND_THEME[brandName].hex : '#94a3b8'
+            const yours = installed?.slug === item.slug
+            const opened = item.slug === currentSlug && !yours
             return (
-              <li key={item.slug}>
-                <button type="button" onClick={() => { openPart(item.slug, 'gpu'); onClose() }} className={`grid w-full grid-cols-[2rem_1fr_auto] items-center gap-3 rounded-lg px-2 py-2 text-left text-xs ${fps == null ? 'text-slate-600' : 'text-white hover:bg-slate-900'}`}>
+              <li key={item.slug} data-slug={item.slug}>
+                <button type="button" onClick={() => { openPart(item.slug, 'gpu'); onClose() }} className={`grid w-full grid-cols-[2rem_1fr_auto] items-center gap-3 rounded-lg px-2 py-2 text-left text-xs ${fps == null ? 'text-slate-600' : 'hover:bg-slate-900'} ${opened ? 'ring-1 ring-slate-600' : ''}`} style={yours ? { boxShadow: `0 0 0 2px ${hex}` } : undefined}>
                   <span className="font-black text-slate-500">{fps == null ? '—' : index + 1}</span>
                   <span>
-                    <span className="block font-bold">{item.name} {yourGpu === item.slug ? '· Tu GPU' : ''}</span>
+                    <span className="flex flex-wrap items-center gap-2 font-bold" style={{ color: fps == null ? undefined : hex }}>
+                      {item.name}
+                      {yours && <YourGpuPill hex={hex} />}
+                    </span>
                     <span className="text-[10px] text-slate-500">{item.gpu?.architecture} · {item.releaseYear}</span>
-                    {percent != null && <span className="mt-1 block h-1 rounded bg-slate-800"><span className="block h-full rounded bg-emerald-400" style={{ width: `${Math.min(percent, 100)}%` }} /></span>}
+                    {percent != null && (
+                      <span className="mt-1 block h-1 rounded bg-slate-800">
+                        <span className="block h-full rounded" style={{ width: `${(percent / maxPercent) * 100}%`, background: hex }} />
+                      </span>
+                    )}
                   </span>
                   <span className="text-right">
-                    <span className="block font-black">{percent != null ? `${percent}%` : 'sin medición'}</span>
+                    <span className="block font-black text-white">{percent != null ? `${percent}%` : 'sin medición'}</span>
                     <span className="text-[10px] text-slate-500">{fps != null ? `${fps.toFixed(0)} FPS` : ''} · {item.gpu?.vramMb != null && item.gpu.vramMb > 0 ? (item.gpu.vramMb >= 1024 ? `${Math.round(item.gpu.vramMb / 1024)} GB` : `${item.gpu.vramMb} MB`) : ''} · {item.tdpWatts} W · {item.priceUsd != null ? `$${item.priceUsd}` : ''}</span>
                   </span>
                 </button>

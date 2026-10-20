@@ -134,12 +134,16 @@ function fold(value: string): string {
     .replace(/(\d+)\s+(gb|tb)/g, '$1$2')
 }
 
+function tokenPattern(token: string): RegExp {
+  const escaped = token.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  // "1200" también tiene que coincidir con LGA1200 o S1200.
+  const body = /^\d{3,4}$/.test(token) ? `(?:lga|s)?${escaped}` : escaped
+  return new RegExp(`(?:^|[^a-z0-9])${body}(?:[^a-z0-9]|$)`, 'i')
+}
+
 function matchesQuery(name: string, query: string): boolean {
   const folded = fold(name)
-  return tokens(fold(query)).every((token) => {
-    const escaped = token.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-    return new RegExp(`(?:^|[^a-z0-9])${escaped}(?:[^a-z0-9]|$)`, 'i').test(folded)
-  })
+  return tokens(fold(query)).every((token) => tokenPattern(token).test(folded))
 }
 
 export function parseOffers(html: string): MarketOffer[] {

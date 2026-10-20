@@ -2,6 +2,7 @@ import { rankGaming, similarParts } from '@pc/engine'
 import { BRAND_THEME, brandOf, type CatalogItem, type Tier } from '@pc/shared'
 import { Suspense, lazy, useMemo, useState } from 'react'
 import { BrandLogo } from '../../components/BrandLogo'
+import { BenchmarkSources } from '../../components/BenchmarkSources'
 import { ComponentImage } from '../../components/ComponentImage'
 import { seriesLogo } from '../../lib/brands'
 import { formatBus, formatConnectors, tierClass } from '../../lib/format'
@@ -204,11 +205,7 @@ export function PartPage({
               </div>
             ))}
           </div>
-          {item.benchmarks?.source && (
-            <p className="mt-3 text-[11px] text-slate-500">
-              Fuente: <a className="underline" href={item.benchmarks.source} target="_blank" rel="noreferrer">TechPowerUp, escala RTX 5090</a>
-            </p>
-          )}
+          {item.type === 'gpu' && <div className="mt-4"><BenchmarkSources source={item.benchmarks?.source} /></div>}
         </section>
       )}
 
@@ -230,7 +227,7 @@ export function PartPage({
 
       <section className="mx-auto mt-10 max-w-3xl text-xs leading-relaxed text-slate-500">
         <h3 className="text-sm font-black uppercase tracking-widest text-slate-400">Metodología y fuentes</h3>
-        <p className="mt-2">Los FPS son un promedio relativo de reseñas públicas (TechPowerUp, ComputerBase y Tom's Hardware), normalizado para que la RTX 5090 marque 175.5 fps en 1440p raster. 1080p, 4K y ray tracing usan el factor de cada generación sobre esa escala. Si una pieza no tiene fila, se muestra "sin medición": no se inventan números. El índice 2026 usa esos FPS cuando existen y, si no, el índice del catálogo con penalizaciones por VRAM, arquitectura y doble GPU. Las fotos vienen de Wikimedia Commons, con autor y licencia.</p>
+        <p className="mt-2">Si una pieza no tiene fila, se muestra «sin medición»: no se inventan números. El índice 2026 usa esos FPS cuando existen y, si no, el índice del catálogo con penalizaciones por VRAM, arquitectura y doble GPU. Las fotos vienen de Wikimedia Commons, con autor y licencia.</p>
       </section>
     </div>
   )

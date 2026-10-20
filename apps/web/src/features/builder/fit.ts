@@ -59,7 +59,55 @@ export function ramGensFor(cpu: CatalogItem | null): DesktopRam[] {
   const arch = cpu.cpu.architecture.toLowerCase()
   if (socket === 'LGA1700' || /alder|raptor/.test(arch)) return ['ddr4', 'ddr5']
   if (cpu.cpu.maxRamGen === 'ddr5' || cpu.cpu.maxRamGen === 'ddr4' || cpu.cpu.maxRamGen === 'ddr3') return [cpu.cpu.maxRamGen]
+  return ramGensFromSocket(socket)
+}
+
+function ramGensFromSocket(socket: string | null): DesktopRam[] {
+  if (socket === 'LGA1700') return ['ddr4', 'ddr5']
+  if (socket === 'AM5' || socket === 'LGA1851') return ['ddr5']
+  if (socket === 'AM4' || socket === 'LGA1200' || socket === 'LGA1151' || socket === 'LGA1150' || socket === 'LGA1155') return ['ddr4']
   return []
+}
+
+/** Socket escrito en el título de la tienda, o el que corresponde al modelo si el título no lo dice. */
+export function cpuSocketFromTitle(name: string | null | undefined): string | null {
+  if (!name) return null
+  const stated = socketsIn(name)[0]
+  if (stated) return stated
+  if (/ultra\s*[579]\s*2\d{2}/i.test(name)) return 'LGA1851'
+  const intel = /\bi[3579][-\s]?(\d{4,5})/i.exec(name)
+  if (intel) {
+    const model = Number(intel[1])
+    if (model >= 12000) return 'LGA1700'
+    if (model >= 10000) return 'LGA1200'
+    if (model >= 6000) return 'LGA1151'
+    if (model >= 4000) return 'LGA1150'
+    return null
+  }
+  const lowEnd = /(?:celeron|pentium)(?:\s+gold)?\s*g\s*(\d{4})/i.exec(name)
+  if (lowEnd) {
+    const model = Number(lowEnd[1])
+    if (model >= 6900 && model < 8000) return 'LGA1700'
+    if (model >= 5900 && model < 6900) return 'LGA1200'
+    if (model >= 3900 && model < 5900) return 'LGA1151'
+    return null
+  }
+  const ryzen = /(?:ryzen|athlon)(?:\s+[3579])?\s+(\d{4})/i.exec(name)
+  if (!ryzen) return null
+  const series = Number(ryzen[1][0])
+  if (series >= 7) return 'AM5'
+  if (series >= 1) return 'AM4'
+  return null
+}
+
+export function cpuSocketOf(cpu: CatalogItem | null, offerName: string | null): string | null {
+  return normalizeSocket(cpu?.cpu?.socketName) ?? cpuSocketFromTitle(offerName)
+}
+
+export function ramGensOf(cpu: CatalogItem | null, socket: string | null): DesktopRam[] {
+  const fromCatalog = ramGensFor(cpu)
+  if (fromCatalog.length > 0) return fromCatalog
+  return ramGensFromSocket(socket)
 }
 
 function memoryOf(socket: string, name: string): DesktopRam | null {
@@ -192,18 +240,15 @@ function caseFits(board: BoardSize, sizes: BoardSize[]): boolean {
   return false
 }
 
-export function marketHints(step: string, cpu: CatalogItem | null, motherName: string | null, typed: string): string[] {
+export function marketHints(step: string, socket: string | null, ramGens: DesktopRam[], motherName: string | null, typed: string): string[] {
   if (typed) return [typed]
-  if (!cpu) return ['']
   if (step === 'motherboard') {
-    const socket = normalizeSocket(cpu.cpu?.socketName)
     if (!socket) return ['']
     return [socket.startsWith('LGA') ? socket.slice(3) : socket]
   }
   if (step === 'ram') {
-    const gens = ramGensFor(cpu)
     const motherGen = motherName ? ramGen(motherName) : null
-    const allowed = motherGen && gens.includes(motherGen) ? [motherGen] : gens
+    const allowed = motherGen && ramGens.includes(motherGen) ? [motherGen] : ramGens
     if (allowed.length === 0) return ['']
     return allowed.map((gen) => gen.toUpperCase())
   }
@@ -212,18 +257,20 @@ export function marketHints(step: string, cpu: CatalogItem | null, motherName: s
 
 export interface FitContext {
   cpu: CatalogItem | null
+  cpuSocket: string | null
+  allowedRam: DesktopRam[]
   motherName: string | null
   caseName: string | null
   recommendedWatts: number
 }
 
 export function offerFit(offer: MarketOffer, step: string, context: FitContext): { status: Fit; note: string } {
-  const cpuSocket = normalizeSocket(context.cpu?.cpu?.socketName)
-  const allowedRam = ramGensFor(context.cpu)
+  const cpuSocket = context.cpuSocket
+  const allowedRam = context.allowedRam
 
   if (step === 'motherboard') {
     const sockets = socketsIn(offer.name)
-    if (!cpuSocket) return { status: 'unknown', note: 'Elegí un procesador para comprobar el socket.' }
+    if (!cpuSocket) return { status: 'unknown', note: 'No se pudo identificar el socket de este procesador.' }
     if (sockets.length === 0) return { status: 'unknown', note: 'El título no dice el socket.' }
     if (!sockets.includes(cpuSocket)) return { status: 'incompatible', note: `Pide ${sockets.join(' / ')} y el procesador es ${cpuSocket}.` }
     const memory = memoryOf(cpuSocket, offer.name)
@@ -238,7 +285,7 @@ export function offerFit(offer: MarketOffer, step: string, context: FitContext):
     const gen = ramGen(offer.name)
     const motherGen = context.motherName ? ramGen(context.motherName) : null
     const allowed = motherGen && allowedRam.includes(motherGen) ? [motherGen] : allowedRam
-    if (allowed.length === 0) return { status: 'unknown', note: 'Elegí un procesador para comprobar la memoria.' }
+    if (allowed.length === 0) return { status: 'unknown', note: 'No se pudo identificar la memoria de este procesador.' }
     if (!gen) return { status: 'unknown', note: 'El título no dice si es DDR4 o DDR5.' }
     if (allowed.includes(gen)) return { status: 'compatible', note: gen.toUpperCase() }
     const label = allowed.map((item) => item.toUpperCase()).join(' o ')
@@ -247,7 +294,7 @@ export function offerFit(offer: MarketOffer, step: string, context: FitContext):
 
   if (step === 'cooler') {
     const sockets = socketsIn(offer.name)
-    if (!cpuSocket) return { status: 'unknown', note: 'Elegí un procesador para comprobar el anclaje.' }
+    if (!cpuSocket) return { status: 'unknown', note: 'No se pudo identificar el socket de este procesador.' }
     if (sockets.length === 0) return { status: 'unknown', note: 'El título no lista sockets.' }
     if (sockets.includes(cpuSocket)) return { status: 'compatible', note: `Anclaje ${cpuSocket}.` }
     return { status: 'incompatible', note: `No lista ${cpuSocket}.` }

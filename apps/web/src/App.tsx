@@ -1,11 +1,13 @@
 import { analyzeBuild, rankCatalog, resolveBuild } from '@pc/engine'
+import { BRAND_THEME, brandOf } from '@pc/shared'
 import { useQuery } from '@tanstack/react-query'
 import { Award, Box, CircuitBoard, RotateCw, Scale, Sparkles } from 'lucide-react'
-import { lazy, Suspense, useMemo, useState } from 'react'
+import { lazy, Suspense, useMemo, useState, type CSSProperties } from 'react'
 import { PartSearch } from './components/PartSearch'
 import { ComparePage } from './features/compare/ComparePage'
 import { TierListPage } from './features/tierlist/TierListPage'
 import { fetchCatalog, fetchPlatforms } from './lib/api'
+import { shortGpuLabel, shortRenderer, useInstalledGpu } from './lib/localGpu'
 import { TABS, useNavStore, type TabId } from './nav'
 import { useBuildStore } from './store'
 
@@ -46,6 +48,9 @@ export function App() {
   const platforms = useQuery({ queryKey: ['platforms'], queryFn: fetchPlatforms })
 
   const ranks = useMemo(() => rankCatalog(catalog.data ?? []), [catalog.data])
+  const installed = useInstalledGpu(catalog.data ?? [])
+  const installedBrand = installed?.item ? brandOf(installed.item) : null
+  const installedHex = installedBrand ? BRAND_THEME[installedBrand].hex : '#94a3b8'
   const analysis = useMemo(() => {
     if (!catalog.data) return null
     return analyzeBuild(resolveBuild(selection, catalog.data), catalog.data, {
@@ -53,26 +58,51 @@ export function App() {
     })
   }, [catalog.data, platforms.data, selection])
 
+  const assetBase = import.meta.env.BASE_URL
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
+    <div
+      className="relative min-h-screen w-full min-w-0 text-slate-100"
+      style={{
+        '--bg-mobile': `url("${assetBase}brand/batalla.png")`,
+        '--bg-tablet': `url("${assetBase}brand/epica.png")`,
+        '--bg-desktop': `url("${assetBase}brand/epica-2.png")`,
+      } as CSSProperties}
+    >
+      <div className="site-backdrop" aria-hidden="true" />
       <header className="glass-panel sticky top-0 z-40 border-b border-slate-800">
-        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4">
-          <div className="flex items-center gap-3">
+        <div className="flex w-full min-w-0 items-center gap-3 px-4 py-2">
+          <div className="flex shrink-0 items-center gap-3">
             <div className="rounded-xl bg-gradient-to-tr from-cyan-500 via-indigo-500 to-fuchsia-500 p-2">
               <Box className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="argb-text text-xl font-black uppercase tracking-tight">Vértice</h1>
+              <h1 className="argb-text whitespace-nowrap text-[1.05rem] font-black uppercase leading-none tracking-tight sm:text-[1.2rem]">
+                PC Gamers Argentina
+              </h1>
               <p className="hidden text-[10px] font-bold uppercase tracking-wider text-slate-400 sm:block">
                 Showroom · ensamble · compatibilidad · 3D
               </p>
             </div>
           </div>
           {catalog.data && <PartSearch items={catalog.data} />}
-          <button type="button" onClick={() => setRankingOpen(true)} className="hidden rounded-full border border-slate-700 px-3 py-1.5 text-[10px] font-black uppercase text-slate-200 sm:inline">
+          {installed?.ready && installed.item && (
+            <span
+              className="hidden min-w-0 max-w-[14rem] shrink truncate rounded-full border px-3 py-1.5 text-[10px] font-black uppercase text-slate-100 md:inline-block"
+              style={{ borderColor: installedHex, color: installedHex }}
+              title={installed.item.name}
+            >
+              Tu placa · {shortGpuLabel(installed.item)}
+            </span>
+          )}
+          {installed?.ready && !installed.item && installed.renderer && (
+            <span className="hidden min-w-0 max-w-[16rem] shrink truncate rounded-full border border-slate-600 px-3 py-1.5 text-[10px] font-bold text-slate-400 md:inline-block" title={installed.renderer}>
+              Sin ficha · {shortRenderer(installed.renderer)}
+            </span>
+          )}
+          <button type="button" onClick={() => setRankingOpen(true)} className="hidden shrink-0 rounded-full border border-slate-700 px-3 py-1.5 text-[10px] font-black uppercase text-slate-200 sm:inline">
             Lista de GPUs
           </button>
-          <nav aria-label="Secciones" className="flex max-w-[62vw] gap-1 overflow-x-auto rounded-xl border border-slate-800 bg-slate-900/90 p-1.5">
+          <nav aria-label="Secciones" className="flex min-w-0 shrink gap-1 overflow-x-auto rounded-xl border border-slate-800 bg-slate-900/90 p-1.5">
             {TABS.map((item) => {
               const Icon = ICONS[item.id]
               const active = tab === item.id
@@ -82,7 +112,7 @@ export function App() {
                   type="button"
                   aria-current={active ? 'page' : undefined}
                   onClick={() => setTab(item.id as TabId)}
-                  className={`flex items-center gap-2 rounded-lg px-3 py-1.5 text-[10px] font-black sm:text-xs ${active ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white' : 'text-slate-400'}`}
+                  className={`flex shrink-0 items-center gap-2 rounded-lg px-3 py-1.5 text-[10px] font-black sm:text-xs ${active ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white' : 'text-slate-400'}`}
                 >
                   <Icon className="h-4 w-4" />
                   <span>{item.label}</span>
@@ -92,7 +122,7 @@ export function App() {
           </nav>
         </div>
       </header>
-      <main className="mx-auto max-w-7xl px-4 py-8">
+      <main className="relative z-10 w-full min-w-0 px-4 py-8">
         {catalog.isLoading && <PageSkeleton />}
         {catalog.isError && (
           <p className="rounded-xl border border-rose-500/40 bg-rose-500/10 p-4 text-sm text-rose-100">
@@ -122,6 +152,21 @@ export function App() {
           </Suspense>
         )}
       </main>
+      <footer className="relative z-10 w-full min-w-0 px-4 pb-10 text-[11px] leading-relaxed text-slate-500">
+        <p>
+          Inspiración de la vitrina y del ranking:{' '}
+          <a className="underline" href="https://www.michaelpcmaster.com/" target="_blank" rel="noreferrer">Michael Quesada</a>.
+        </p>
+        <p className="mt-1">
+          Precios y tiendas:{' '}
+          <a className="underline" href="https://www.hardgamers.com.ar/" target="_blank" rel="noreferrer">HardGamers</a>,
+          que reúne los avisos. «Ver en …» abre la tienda.
+        </p>
+        <p className="mt-1">
+          Rendimiento: TechPowerUp, ComputerBase y Tom's Hardware. Los FPS son una escala de esas reseñas, no la medición de un juego.
+        </p>
+        <p className="mt-1">Fotos de catálogo: Wikimedia Commons, con autor y licencia en cada ficha.</p>
+      </footer>
     </div>
   )
 }

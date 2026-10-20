@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+.site-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-color: #020617;
+  background-image: linear-gradient(rgba(2, 6, 23, 0.75), rgba(2, 6, 23, 0.75)), var(--bg-mobile);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .site-backdrop {
+    background-image: linear-gradient(rgba(2, 6, 23, 0.75), rgba(2, 6, 23, 0.75)), var(--bg-tablet);
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-backdrop {
+    background-image: linear-gradient(rgba(2, 6, 23, 0.75), rgba(2, 6, 23, 0.75)), var(--bg-desktop);
+  }
+}
+
 @keyframes argb-flow {
   0% { filter: hue-rotate(0deg); }
   100% { filter: hue-rotate(360deg); }
